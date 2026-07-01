@@ -8,6 +8,7 @@
 | ------- |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0061-rotate-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0061-rotate-list) |
+| [0138-copy-list-with-random-pointer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
 | [0206-reverse-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0206-reverse-linked-list) |
@@ -22,6 +23,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0138-copy-list-with-random-pointer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0141-linked-list-cycle) |
 ## Two Pointers
 |  |
