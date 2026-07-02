@@ -58,6 +58,7 @@
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Riteshh-Guptaa/dsa/tree/master/0008-string-to-integer-atoi) |
+| [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 ## Math
@@ -65,4 +66,12 @@
 | ------- |
 | [0050-powx-n](https://github.com/Riteshh-Guptaa/dsa/tree/master/0050-powx-n) |
 | [1922-count-good-numbers](https://github.com/Riteshh-Guptaa/dsa/tree/master/1922-count-good-numbers) |
+## Array
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
+## Trie
+|  |
+| ------- |
+| [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 <!---LeetCode Topics End-->
