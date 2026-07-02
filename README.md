@@ -40,6 +40,7 @@
 |  |
 | ------- |
 | [0234-palindrome-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0234-palindrome-linked-list) |
+| [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -56,6 +57,7 @@
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Riteshh-Guptaa/dsa/tree/master/0008-string-to-integer-atoi) |
+| [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 ## Math
 |  |
 | ------- |
