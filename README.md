@@ -25,6 +25,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0013-roman-to-integer) |
 | [0138-copy-list-with-random-pointer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0141-linked-list-cycle) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
@@ -60,6 +61,7 @@
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Riteshh-Guptaa/dsa/tree/master/0008-string-to-integer-atoi) |
+| [0013-roman-to-integer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0013-roman-to-integer) |
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 | [0151-reverse-words-in-a-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
@@ -67,6 +69,7 @@
 ## Math
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0013-roman-to-integer) |
 | [0050-powx-n](https://github.com/Riteshh-Guptaa/dsa/tree/master/0050-powx-n) |
 | [1922-count-good-numbers](https://github.com/Riteshh-Guptaa/dsa/tree/master/1922-count-good-numbers) |
 ## Array
