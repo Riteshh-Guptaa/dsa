@@ -34,6 +34,7 @@
 | [0061-rotate-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0061-rotate-list) |
 | [0141-linked-list-cycle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0141-linked-list-cycle) |
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
+| [0151-reverse-words-in-a-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0234-palindrome-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0234-palindrome-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 ## Stack
@@ -57,6 +58,7 @@
 |  |
 | ------- |
 | [0008-string-to-integer-atoi](https://github.com/Riteshh-Guptaa/dsa/tree/master/0008-string-to-integer-atoi) |
+| [0151-reverse-words-in-a-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 ## Math
 |  |
