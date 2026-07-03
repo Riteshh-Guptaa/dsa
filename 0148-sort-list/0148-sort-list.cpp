@@ -10,65 +10,57 @@
  */
 class Solution {
 public:
-    ListNode* findMiddle(ListNode* head){
+    ListNode* merge(ListNode* left, ListNode* right){
+        ListNode* temp1 = left;
+        ListNode* temp2 = right;
+
+        ListNode* dummyNode = new ListNode(-1);
+        ListNode* temp = dummyNode;
+
+
+        while(temp1 != NULL && temp2 != NULL){
+            if(temp1->val >= temp2->val){
+                temp->next = temp2;
+                temp2 = temp2->next;
+                temp = temp->next;
+            }else{
+                temp->next = temp1;
+                temp1 = temp1->next;
+                temp = temp->next;
+            }
+            temp->next = NULL;
+        }
+
+        while(temp1) temp->next = temp1, temp1 = temp1->next, temp = temp->next;
+        while(temp2) temp->next = temp2, temp2 = temp2->next, temp = temp->next;
+
+        return dummyNode->next;
+    }
+    ListNode* mergeSort(ListNode* head){
+        if(head == NULL || head->next == NULL){
+            return head;
+        }
+
         ListNode* fast = head->next;
         ListNode* slow = head;
-
-        while(fast != NULL && fast->next != NULL){
+        while( fast != NULL && fast->next != NULL){
             fast = fast->next->next;
             slow = slow->next;
         }
-        return slow;
-    }
+        ListNode* right = slow->next;
+        slow->next = NULL;
+        ListNode* left = head;
 
-    ListNode* merge(ListNode* node1, ListNode* node2){
-        ListNode* dummy = new ListNode(-1);
-        ListNode* temp = dummy;
-        while(node1 != NULL && node2 != NULL){
-            if(node1->val > node2->val){
-                temp->next = node2;
-                temp = temp->next;
-                node2 = node2->next;
-            }else{
-                temp->next = node1;
-                temp = temp->next;
-                node1 = node1->next;
-            }
-            temp->next = nullptr;
-        }
-
-        while(node1) {
-            temp->next = node1;
-            temp = temp->next;
-            node1 = node1->next;
-            temp->next = nullptr;
-        } 
-        while(node2) {
-            temp->next = node2;
-            temp = temp->next;
-            node2 = node2->next;
-            temp->next = nullptr;
-        }
-        return dummy->next;
+        ListNode* low = mergeSort(left);
+        ListNode* high = mergeSort(right);
+        return merge(low, high);
     }
-    ListNode* mergeSort(ListNode* head) {
+    ListNode* sortList(ListNode* head) {
         if(head == NULL || head->next == NULL){
             return head;
         }
-        ListNode* low = head;
-        ListNode* middle = findMiddle(head);
-        ListNode* high = middle->next;
-        middle->next = nullptr;
+      
 
-        low = mergeSort(low);
-        high = mergeSort(high);
-       return merge(low, high);
-
-    }
-    ListNode* sortList(ListNode* head){
-        if(head == NULL || head->next == NULL){
-            return head;
-        }
         return mergeSort(head);
     }
 };
