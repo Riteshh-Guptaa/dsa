@@ -14,14 +14,13 @@ public:
         if(head == NULL || head->next == NULL){
             return head;
         }
-
         ListNode* newHead = reverse(head->next);
         ListNode* front = head->next;
         front->next = head;
         head->next = NULL;
         return newHead;
     }
-    ListNode* reverseList(ListNode* head) {
+    ListNode* reverseList(ListNode* head){
         return reverse(head);
     }
 };
