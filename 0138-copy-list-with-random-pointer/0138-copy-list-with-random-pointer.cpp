@@ -16,50 +16,45 @@ public:
 
 class Solution {
 public:
-    Node* addNode(Node* head){
+    Node* execute(Node* head){
         Node* temp = head;
         while(temp != NULL){
-            Node* newN = new Node(temp->val);
-            newN->next = temp->next;
-            temp->next = newN;
-            temp = newN->next;
-        }
-        return head;
-    }
-
-    Node* addRandom(Node* head){
-        Node* temp = head;
-        while(temp != NULL){
-            Node* ran = temp->random;
-            if(ran != NULL){
-                temp->next->random = ran->next;
-            }else{
-                temp->next->random = nullptr;
-            }
-
+            Node* newNode = new Node(temp->val);
+            Node* front = temp->next;
+            temp->next = newNode;
+            newNode->next = front;
             temp = temp->next->next;
         }
         return head;
     }
 
-    Node* extract(Node* head){
+    Node* addingptr(Node* head){
         Node* temp = head;
-        Node* dummy = new Node(-1);
-        Node* curr = dummy;
-
         while(temp != NULL){
-            curr->next = temp->next;
-            temp->next = temp->next->next;
-            temp = temp->next;
-            curr = curr->next;
+            Node* ran = temp->random;
+            if(ran != NULL) temp->next->random = ran->next;
+            else temp->next->random = ran;
+            temp = temp->next->next;
         }
+        return head;
 
-        return dummy->next;
     }
     Node* copyRandomList(Node* head) {
-        Node* temp = addNode(head);
-        Node* r = addRandom(temp);
-        return extract(r);
+        Node* newNode = execute(head);
+        Node* newN = addingptr(head);
 
+        Node* temp = newN;
+        Node* dummyNode = new Node(-1);
+        Node* curr = dummyNode;
+
+
+        while(temp != NULL){
+            Node* temp2 = temp->next;
+            curr->next = temp2;
+            curr = curr->next;
+            temp->next = temp->next->next;
+            temp = temp->next;
+        }
+        return dummyNode->next;
     }
 };
