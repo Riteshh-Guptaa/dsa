@@ -87,6 +87,7 @@
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
+| [0875-koko-eating-bananas](https://github.com/Riteshh-Guptaa/dsa/tree/master/0875-koko-eating-bananas) |
 ## Trie
 |  |
 | ------- |
@@ -112,4 +113,8 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0022-generate-parentheses) |
+## Binary Search
+|  |
+| ------- |
+| [0875-koko-eating-bananas](https://github.com/Riteshh-Guptaa/dsa/tree/master/0875-koko-eating-bananas) |
 <!---LeetCode Topics End-->
