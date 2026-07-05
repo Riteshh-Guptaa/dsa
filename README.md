@@ -88,6 +88,7 @@
 | ------- |
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 | [0875-koko-eating-bananas](https://github.com/Riteshh-Guptaa/dsa/tree/master/0875-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Riteshh-Guptaa/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Riteshh-Guptaa/dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 ## Trie
 |  |
@@ -118,5 +119,6 @@
 |  |
 | ------- |
 | [0875-koko-eating-bananas](https://github.com/Riteshh-Guptaa/dsa/tree/master/0875-koko-eating-bananas) |
+| [1011-capacity-to-ship-packages-within-d-days](https://github.com/Riteshh-Guptaa/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Riteshh-Guptaa/dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 <!---LeetCode Topics End-->
