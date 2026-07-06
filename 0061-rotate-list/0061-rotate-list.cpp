@@ -10,30 +10,34 @@
  */
 class Solution {
 public:
-    ListNode* kth(ListNode* head, int k){
-        int len = 1;
+    ListNode* counter(ListNode* head, int kc){
         ListNode* temp = head;
-        while(temp != NULL && temp->next != NULL && len != k ) {
-            len++;
+        int cnt = 1;
+        while(temp != NULL && cnt != kc){
+            cnt++;
             temp = temp->next;
         }
         return temp;
     }
+  
     ListNode* rotateRight(ListNode* head, int k) {
-        int cnt = 1;
         ListNode* temp = head;
+        int len = 1;
         while(temp != NULL && temp->next != NULL){
-            cnt++;
+            len++;
             temp = temp->next;
         }
+        if(k >= len){
+            k %= len;
+        }
+        if(k == 0){
+            return head;
+        }
 
-        if(k % cnt == 0)return head;
-        k %= cnt;
-
-        ListNode* newNode = kth(head, cnt - k);
-        ListNode* newHead = newNode->next;
         temp->next = head;
+        ListNode* newNode = counter(head, len - k);
+        head = newNode->next;
         newNode->next = NULL;
-        return newHead;
+        return head;
     }
 };
