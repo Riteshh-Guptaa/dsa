@@ -90,6 +90,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 | [0039-combination-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0039-combination-sum) |
+| [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 | [0875-koko-eating-bananas](https://github.com/Riteshh-Guptaa/dsa/tree/master/0875-koko-eating-bananas) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Riteshh-Guptaa/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -122,6 +123,7 @@
 | ------- |
 | [0022-generate-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0039-combination-sum) |
+| [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 ## Binary Search
 |  |
 | ------- |
@@ -139,4 +141,8 @@
 |  |
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 <!---LeetCode Topics End-->
