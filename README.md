@@ -93,6 +93,7 @@
 |  |
 | ------- |
 | [0013-roman-to-integer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0013-roman-to-integer) |
+| [0048-rotate-image](https://github.com/Riteshh-Guptaa/dsa/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Riteshh-Guptaa/dsa/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
 | [1922-count-good-numbers](https://github.com/Riteshh-Guptaa/dsa/tree/master/1922-count-good-numbers) |
@@ -103,6 +104,7 @@
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0039-combination-sum) |
+| [0048-rotate-image](https://github.com/Riteshh-Guptaa/dsa/tree/master/0048-rotate-image) |
 | [0053-maximum-subarray](https://github.com/Riteshh-Guptaa/dsa/tree/master/0053-maximum-subarray) |
 | [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
@@ -176,5 +178,6 @@
 ## Matrix
 |  |
 | ------- |
+| [0048-rotate-image](https://github.com/Riteshh-Guptaa/dsa/tree/master/0048-rotate-image) |
 | [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
