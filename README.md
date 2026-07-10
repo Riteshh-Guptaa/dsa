@@ -43,6 +43,7 @@
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0061-rotate-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0061-rotate-list) |
+| [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
 | [0141-linked-list-cycle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0142-linked-list-cycle-ii) |
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
@@ -64,6 +65,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 ## Merge Sort
@@ -96,6 +98,7 @@
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0039-combination-sum) |
+| [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/0136-single-number) |
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
