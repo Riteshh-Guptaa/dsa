@@ -31,6 +31,7 @@
 | ------- |
 | [0013-roman-to-integer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
+| [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0138-copy-list-with-random-pointer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0142-linked-list-cycle-ii) |
@@ -103,6 +104,7 @@
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0039-combination-sum) |
 | [0053-maximum-subarray](https://github.com/Riteshh-Guptaa/dsa/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Riteshh-Guptaa/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -171,4 +173,8 @@
 | ------- |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/0136-single-number) |
+## Matrix
+|  |
+| ------- |
+| [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 <!---LeetCode Topics End-->
