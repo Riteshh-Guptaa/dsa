@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void solver(vector<int>& candidates, vector<vector<int>>& ans, vector<int> curr, int target, int idx){
+    void solver(vector<int>& candidates, vector<vector<int>>& ans, vector<int> &curr, int target, int idx){
         if(target == 0){
             ans.push_back(curr);
             return;
@@ -10,7 +10,7 @@ public:
             return;
         }
 
-        if(candidates[idx] <= target){
+        if(target >= candidates[idx]){
             curr.push_back(candidates[idx]);
             solver(candidates, ans, curr, target - candidates[idx], idx);
             curr.pop_back();
