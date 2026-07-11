@@ -42,6 +42,7 @@
 ## Two Pointers
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0015-3sum) |
 | [0019-remove-nth-node-from-end-of-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0019-remove-nth-node-from-end-of-list) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0061-rotate-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0061-rotate-list) |
@@ -69,6 +70,7 @@
 ## Sorting
 |  |
 | ------- |
+| [0015-3sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0015-3sum) |
 | [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
@@ -102,6 +104,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
+| [0015-3sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0015-3sum) |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0039-combination-sum) |
 | [0048-rotate-image](https://github.com/Riteshh-Guptaa/dsa/tree/master/0048-rotate-image) |
