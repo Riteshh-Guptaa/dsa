@@ -87,6 +87,7 @@
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0022-generate-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0022-generate-parentheses) |
+| [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
@@ -113,6 +114,7 @@
 | [0054-spiral-matrix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
+| [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0118-pascals-triangle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Riteshh-Guptaa/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -161,6 +163,7 @@
 | [0022-generate-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0022-generate-parentheses) |
 | [0039-combination-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0040-combination-sum-ii) |
+| [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0216-combination-sum-iii) |
 ## Binary Search
@@ -191,8 +194,13 @@
 | [0048-rotate-image](https://github.com/Riteshh-Guptaa/dsa/tree/master/0048-rotate-image) |
 | [0054-spiral-matrix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
+| [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 ## Simulation
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0054-spiral-matrix) |
+## Depth-First Search
+|  |
+| ------- |
+| [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 <!---LeetCode Topics End-->
