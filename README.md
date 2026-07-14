@@ -55,6 +55,7 @@
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0234-palindrome-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Riteshh-Guptaa/dsa/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Stack
 |  |
 | ------- |
@@ -130,6 +131,7 @@
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Riteshh-Guptaa/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Riteshh-Guptaa/dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1539-kth-missing-positive-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/1539-kth-missing-positive-number) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Riteshh-Guptaa/dsa/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Trie
 |  |
 | ------- |
@@ -201,6 +203,7 @@
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0054-spiral-matrix) |
+| [2149-rearrange-array-elements-by-sign](https://github.com/Riteshh-Guptaa/dsa/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Depth-First Search
 |  |
 | ------- |
