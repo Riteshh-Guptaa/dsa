@@ -126,6 +126,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Riteshh-Guptaa/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/0136-single-number) |
 | [0152-maximum-product-subarray](https://github.com/Riteshh-Guptaa/dsa/tree/master/0152-maximum-product-subarray) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
 | [0216-combination-sum-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0216-combination-sum-iii) |
@@ -183,6 +184,7 @@
 | [0034-find-first-and-last-position-of-element-in-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0034-find-first-and-last-position-of-element-in-sorted-array) |
 | [0035-search-insert-position](https://github.com/Riteshh-Guptaa/dsa/tree/master/0035-search-insert-position) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0081-search-in-rotated-sorted-array-ii) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 | [0704-binary-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0704-binary-search) |
 | [0875-koko-eating-bananas](https://github.com/Riteshh-Guptaa/dsa/tree/master/0875-koko-eating-bananas) |
