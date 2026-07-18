@@ -7,8 +7,9 @@ public:
         if(n1 > n2) return findMedianSortedArrays(nums2, nums1);
 
         int low = 0;
-        int high = n1;
+        
         int left = (n1 + n2 + 1)/2;
+        int high = min(n1, left);
 
         while(low <= high){
             int mid1 = low + (high - low)/2;
