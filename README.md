@@ -93,6 +93,7 @@
 | [0022-generate-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0151-reverse-words-in-a-string) |
+| [0282-expression-add-operators](https://github.com/Riteshh-Guptaa/dsa/tree/master/0282-expression-add-operators) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Riteshh-Guptaa/dsa/tree/master/1781-sum-of-beauty-of-all-substrings) |
@@ -103,6 +104,7 @@
 | [0048-rotate-image](https://github.com/Riteshh-Guptaa/dsa/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Riteshh-Guptaa/dsa/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
+| [0282-expression-add-operators](https://github.com/Riteshh-Guptaa/dsa/tree/master/0282-expression-add-operators) |
 | [1922-count-good-numbers](https://github.com/Riteshh-Guptaa/dsa/tree/master/1922-count-good-numbers) |
 ## Array
 |  |
@@ -182,6 +184,7 @@
 | [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0216-combination-sum-iii) |
+| [0282-expression-add-operators](https://github.com/Riteshh-Guptaa/dsa/tree/master/0282-expression-add-operators) |
 ## Binary Search
 |  |
 | ------- |
