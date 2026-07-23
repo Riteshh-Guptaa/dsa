@@ -1,35 +1,36 @@
 class Solution {
 public:
-    int helper(string s, long long ans, int sign, int i){
-        if(i >= s.size() || !isdigit(s[i])){
-            return sign * ans;
+    int reversal(long long ans, int sign, int i, string s){
+        if(i == s.size() || !isdigit(s[i])){
+            return ans * sign;
         }
 
         ans = ans * 10 + (s[i] - '0');
-
-        if(sign == 1 && ans >= INT_MAX){
+        if(sign == 1 && ans > INT_MAX){
             return INT_MAX;
         }
-        if(sign == -1 && -ans <= INT_MIN){
+
+        if(sign == -1 && -1 * ans < INT_MIN){
             return INT_MIN;
         }
 
-        return helper(s, ans, sign, i + 1);
+        return reversal(ans, sign, i + 1, s);
+        
     }
     int myAtoi(string s) {
         int i = 0;
-        while(i < s.size() && s[i] == ' '){
-            i++;
-        }
-        int sign = 1;
+        while(i < s.size() && s[i] == ' ') i++;
 
-        if(i < s.size() && (s[i] == '+' || s[i] == '-')){
+        if(i >= s.size()) return 0;
+        int sign = 1;
+        if(s[i] == '+' || s[i] == '-'){
             if(s[i] == '-'){
                 sign = -1;
             }
             i++;
         }
-
-        return helper(s, 0, sign, i);
+        long long ans = 0;
+        return reversal(ans, sign, i, s);
+        
     }
 };
