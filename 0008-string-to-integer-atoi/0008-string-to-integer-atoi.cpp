@@ -1,26 +1,21 @@
 class Solution {
 public:
-    int reversal(long long ans, int sign, int i, string s){
+    int recursion(int i, int sign, string s, long long num){
         if(i == s.size() || !isdigit(s[i])){
-            return ans * sign;
+            return (int)(sign * num);
+        }
+        int digit = s[i] - '0';
+        if(num > INT_MAX/10 || num == INT_MAX/10 && digit > 7){
+            return (sign == 1) ? INT_MAX : INT_MIN;
         }
 
-        ans = ans * 10 + (s[i] - '0');
-        if(sign == 1 && ans > INT_MAX){
-            return INT_MAX;
-        }
+        num = num * 10 + digit;
+        return recursion(i + 1, sign, s, num);
 
-        if(sign == -1 && -1 * ans < INT_MIN){
-            return INT_MIN;
-        }
-
-        return reversal(ans, sign, i + 1, s);
-        
     }
     int myAtoi(string s) {
         int i = 0;
         while(i < s.size() && s[i] == ' ') i++;
-
         if(i >= s.size()) return 0;
         int sign = 1;
         if(s[i] == '+' || s[i] == '-'){
@@ -29,8 +24,9 @@ public:
             }
             i++;
         }
-        long long ans = 0;
-        return reversal(ans, sign, i, s);
-        
+        long long num = 0;
+        return recursion(i, sign, s, num);
     }
+
+
 };
