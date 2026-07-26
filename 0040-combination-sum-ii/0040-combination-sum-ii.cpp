@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void reversal(vector<vector<int>> &ans, vector<int> &curr, vector<int> &candidates, int target, int idx){
+    void reversal(vector<vector<int>> &ans, vector<int> &curr, vector<int> candidates, int target, int idx){
         if(target == 0){
             ans.push_back(curr);
             return;
