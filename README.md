@@ -143,6 +143,7 @@
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Riteshh-Guptaa/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Riteshh-Guptaa/dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1539-kth-missing-positive-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/1539-kth-missing-positive-number) |
+| [1901-find-a-peak-element-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1901-find-a-peak-element-ii) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Riteshh-Guptaa/dsa/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Trie
 |  |
@@ -200,6 +201,7 @@
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Riteshh-Guptaa/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Riteshh-Guptaa/dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1539-kth-missing-positive-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/1539-kth-missing-positive-number) |
+| [1901-find-a-peak-element-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1901-find-a-peak-element-ii) |
 ## Greedy
 |  |
 | ------- |
@@ -221,6 +223,7 @@
 | [0054-spiral-matrix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
+| [1901-find-a-peak-element-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1901-find-a-peak-element-ii) |
 ## Simulation
 |  |
 | ------- |
