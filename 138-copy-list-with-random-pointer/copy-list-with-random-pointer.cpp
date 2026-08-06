@@ -16,50 +16,39 @@ public:
 
 class Solution {
 public:
-    Node* addNode(Node* head){
-        Node* temp = head;
-        while(temp != NULL){
-            Node* newN = new Node(temp->val);
-            newN->next = temp->next;
-            temp->next = newN;
-            temp = newN->next;
+    Node* execute(Node* head){
+        Node* curr = head;
+        while(curr){
+            Node* temp = new Node(curr->val);
+            temp->next = curr->next;
+            curr->next = temp;
+            curr = temp->next;
         }
         return head;
     }
 
-    Node* addRandom(Node* head){
-        Node* temp = head;
-        while(temp != NULL){
-            Node* ran = temp->random;
-            if(ran != NULL){
-                temp->next->random = ran->next;
-            }else{
-                temp->next->random = nullptr;
-            }
-
-            temp = temp->next->next;
+    Node* addingptr(Node* head){
+        Node* curr = head;
+        while(curr){
+            Node* temp = curr->random;
+            if(temp) curr->next->random = temp->next;
+            else curr->next->random = temp;
+            curr = curr->next->next;
         }
         return head;
-    }
-
-    Node* extract(Node* head){
-        Node* temp = head;
-        Node* dummy = new Node(-1);
-        Node* curr = dummy;
-
-        while(temp != NULL){
-            curr->next = temp->next;
-            temp->next = temp->next->next;
-            temp = temp->next;
-            curr = curr->next;
-        }
-
-        return dummy->next;
     }
     Node* copyRandomList(Node* head) {
-        Node* temp = addNode(head);
-        Node* r = addRandom(temp);
-        return extract(r);
-
+        Node* newN = execute(head);
+        Node* newNode = addingptr(head);
+        Node* dummy = new Node(-1);
+        Node* curr = dummy;
+        Node* temp = head;
+        while(temp){
+            curr->next = temp->next;
+            temp->next = temp->next->next;
+            curr = curr->next;
+            temp = temp->next;
+        }
+        return dummy->next;
     }
 };
