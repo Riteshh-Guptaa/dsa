@@ -17,44 +17,38 @@ public:
 class Solution {
 public:
     Node* execute(Node* head){
-        Node* temp = head;
-        while(temp != NULL){
-            Node* newNode = new Node(temp->val);
-            Node* front = temp->next;
-            temp->next = newNode;
-            newNode->next = front;
-            temp = temp->next->next;
+        Node* curr = head;
+        while(curr){
+            Node* temp = new Node(curr->val);
+            temp->next = curr->next;
+            curr->next = temp;
+            curr = temp->next;
         }
         return head;
     }
 
     Node* addingptr(Node* head){
-        Node* temp = head;
-        while(temp != NULL){
-            Node* ran = temp->random;
-            if(ran != NULL) temp->next->random = ran->next;
-            else temp->next->random = ran;
-            temp = temp->next->next;
+        Node* curr = head;
+        while(curr){
+            Node* temp = curr->random;
+            if(temp) curr->next->random = temp->next;
+            else curr->next->random = temp;
+            curr = curr->next->next;
         }
         return head;
-
     }
     Node* copyRandomList(Node* head) {
-        Node* newNode = execute(head);
-        Node* newN = addingptr(head);
-
-        Node* temp = newN;
-        Node* dummyNode = new Node(-1);
-        Node* curr = dummyNode;
-
-
-        while(temp != NULL){
-            Node* temp2 = temp->next;
-            curr->next = temp2;
-            curr = curr->next;
+        Node* newN = execute(head);
+        Node* newNode = addingptr(head);
+        Node* dummy = new Node(-1);
+        Node* curr = dummy;
+        Node* temp = head;
+        while(temp){
+            curr->next = temp->next;
             temp->next = temp->next->next;
+            curr = curr->next;
             temp = temp->next;
         }
-        return dummyNode->next;
+        return dummy->next;
     }
 };
