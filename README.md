@@ -252,4 +252,8 @@
 |  |
 | ------- |
 | [0493-reverse-pairs](https://github.com/Riteshh-Guptaa/dsa/tree/master/0493-reverse-pairs) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0022-generate-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0022-generate-parentheses) |
 <!---LeetCode Topics End-->
