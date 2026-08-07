@@ -1,28 +1,31 @@
 class Solution {
 public:
-    void reversal(vector<int> &candidates, vector<vector<int>> &ans, vector<int> &curr, int target, int idx){
-        if(target == 0){
-            ans.push_back(curr);
-            return;
-        }
+    void reversal(vector<vector<int>> &ans, vector<int> &curr, vector<int> &candidates, int target, int idx){
+       if(target == 0){
+        ans.push_back(curr);
+        return;
+       }
 
-        if(idx == candidates.size()){
-            return;
-        }
+       if(idx == candidates.size()){
+        return;
+       }
 
-        if(target >= candidates[idx]){
-            curr.push_back(candidates[idx]);
-            reversal(candidates, ans, curr, target - candidates[idx], idx);
+        for(int i = idx; i < candidates.size(); i++){
+            if(i > idx && candidates[idx] == candidates[i]) continue;
+            if(candidates[i] > target) break;
+
+            curr.push_back(candidates[i]);
+            reversal(ans, curr, candidates, target - candidates[i], i);  
             curr.pop_back();
         }
 
-        reversal(candidates, ans, curr, target, idx + 1);
+
     }
     vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
+        sort(candidates.begin(), candidates.end());
         vector<vector<int>> ans;
         vector<int> curr;
-
-        reversal(candidates, ans, curr, target, 0);
-        return ans; 
+        reversal(ans, curr, candidates, target, 0);
+        return ans;
     }
 };
