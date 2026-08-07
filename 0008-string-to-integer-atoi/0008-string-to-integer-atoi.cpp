@@ -1,17 +1,16 @@
 class Solution {
 public:
-    int recursion(int i, int sign, string s, long long num){
+    int recursion(string s, int i, int sign, int ans){
         if(i == s.size() || !isdigit(s[i])){
-            return (int)(sign * num);
+            return sign * ans;
         }
+
         int digit = s[i] - '0';
-        if(num > INT_MAX/10 || num == INT_MAX/10 && digit > 7){
+        if(ans > INT_MAX/10 || ans == INT_MAX/10 && digit > 7){
             return (sign == 1) ? INT_MAX : INT_MIN;
         }
-
-        num = num * 10 + digit;
-        return recursion(i + 1, sign, s, num);
-
+        ans = ans * 10 + digit;
+        return recursion(s, i + 1, sign, ans);
     }
     int myAtoi(string s) {
         int i = 0;
@@ -24,9 +23,7 @@ public:
             }
             i++;
         }
-        long long num = 0;
-        return recursion(i, sign, s, num);
+        int ans = 0;
+        return recursion(s, i, sign, ans);
     }
-
-
 };
