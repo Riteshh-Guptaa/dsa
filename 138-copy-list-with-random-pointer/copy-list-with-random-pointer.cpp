@@ -22,7 +22,7 @@ public:
             Node* temp = new Node(curr->val);
             temp->next = curr->next;
             curr->next = temp;
-            curr = temp->next;
+            curr = curr->next->next;
         }
         return head;
     }
@@ -40,14 +40,16 @@ public:
     Node* copyRandomList(Node* head) {
         Node* newN = execute(head);
         Node* newNode = addingptr(head);
+
+        Node* curr = head;
         Node* dummy = new Node(-1);
-        Node* curr = dummy;
-        Node* temp = head;
-        while(temp){
-            curr->next = temp->next;
-            temp->next = temp->next->next;
+        Node* prev = dummy;
+        
+        while(curr){
+            prev->next = curr->next;
+            curr->next = curr->next->next;
             curr = curr->next;
-            temp = temp->next;
+            prev = prev->next;
         }
         return dummy->next;
     }
