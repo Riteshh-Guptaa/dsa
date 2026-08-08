@@ -11,21 +11,20 @@
 class Solution {
 public:
     int count(ListNode* head){
-        ListNode* curr = head;
         int cnt = 0;
-        while(curr){
+        while(head){
             cnt++;
-            curr = curr->next;
+            head = head->next;
         }
         return cnt;
     }
 
-    ListNode* nodeFinder(ListNode* head, int req){
+    ListNode* pivot(ListNode* head, int req){
         ListNode* curr = head;
         int cnt = 1;
         while(curr != NULL && cnt < req){
-            curr = curr->next;
             cnt++;
+            curr = curr->next;
         }
         return curr;
     }
@@ -33,23 +32,21 @@ public:
         if(head == NULL || head->next == NULL || k == 0){
             return head;
         }
-
+        
         int cnt = count(head);
         k %= cnt;
         if(k == 0) return head;
-
         int req = cnt - k;
-        ListNode* newNode = nodeFinder(head, req);
+        ListNode* newNode = pivot(head, req);
         ListNode* newHead = newNode->next;
-        ListNode* temp = newHead;
         newNode->next = NULL;
-
+        ListNode* temp = newHead;
         while(temp->next){
             temp = temp->next;
         }
+
         temp->next = head;
         return newHead;
-
-
+        
     }
 };
