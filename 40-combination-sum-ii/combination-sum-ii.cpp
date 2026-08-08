@@ -5,15 +5,13 @@ public:
             ans.push_back(curr);
             return;
         }
-        if(idx == candidates.size()){
-            return;
-        }
 
         for(int i = idx; i < candidates.size(); i++){
             if(i > idx && candidates[i] == candidates[i - 1]) continue;
             if(candidates[i] > target) break;
+
             curr.push_back(candidates[i]);
-            reversal(ans, curr, candidates, target - candidates[i], i +           1);
+            reversal(ans, curr, candidates, target - candidates[i], i + 1);
             curr.pop_back();
         }
     }
