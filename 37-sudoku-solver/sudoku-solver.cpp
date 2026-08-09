@@ -1,47 +1,46 @@
 class Solution {
 public:
-    bool isChecker(vector<vector<char>> &board, char val, int row, int col){
+    bool isChecker(vector<vector<char>> &board, char k, int row, int col){
         for(int i = 0; i < 9; i++){
-            if(board[i][col] == val){
+            if(board[row][i] == k){
                 return false;
+            }
+            if(board[i][col] == k){
+                return false;
+            }
+            if(board[3 * (row/3) + i/3][3 * (col/3) + i % 3] == k){
+                return false;
+            }
+                
             }
 
-            if(board[row][i] == val){
-                return false;
-            }
-
-            if(board[3 * (row/3) + i/3][3 * (col/3) + i % 3] == val){
-                return false;
-            }
+            
+            return true;
         }
-        return true;
-    }
-
+         
+       
+    
     bool reversal(vector<vector<char>> &board){
-        for(int row = 0; row < 9; row ++){
-            for(int col = 0; col < 9; col++){
-                if(board[row][col] == '.'){
-                    for(char i = '1'; i <= '9'; i++){
-                        if(isChecker(board, i, row, col)){
-                            board[row][col] = i;
+        for(int i = 0; i < board.size(); i++){
+            for(int j = 0; j < board[0].size(); j++){
+                if(board[i][j] == '.'){
+                    for(char k = '1'; k <= '9'; k++){
+                        if(isChecker(board, k, i, j)){
+                            board[i][j] = k;
                             if(reversal(board)){
                                 return true;
                             }
-                            board[row][col] = '.';
+                            board[i][j] = '.';
                         }
-                       
                     }
-                     return false;
+                    return false;
                 }
             }
-              
         }
         return true;
-        
     }
     void solveSudoku(vector<vector<char>>& board) {
         reversal(board);
-        return;
-        
+        return;   
     }
 };
