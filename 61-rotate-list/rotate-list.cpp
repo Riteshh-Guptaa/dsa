@@ -12,9 +12,9 @@ class Solution {
 public:
     int count(ListNode* head){
         int cnt = 0;
-        while(head){
+        while(head != NULL){
             cnt++;
-            head= head->next;
+            head = head->next;
         }
         return cnt;
     }
@@ -23,21 +23,28 @@ public:
             return head;
         }
         int cnt = count(head);
+
         k %= cnt;
         if(k == 0) return head;
+
         int req = cnt - k;
         ListNode* temp = head;
-        for(int i = 1; i < req; i++){
+        int i = 1;
+        while(temp != NULL && i < req){
             temp = temp->next;
+            i++;
         }
 
-        ListNode* newhead = temp->next;
-        ListNode* curr = newhead;
+        ListNode* newHead = temp->next;
         temp->next = NULL;
-        while(curr->next){
-            curr = curr->next;
+        ListNode* dummy = newHead;
+        while(dummy->next){
+            dummy = dummy->next;
         }
-        curr->next = head;
-        return newhead;
+        dummy->next = head;
+        head = newHead;
+        return head;
+
+
     }
 };
