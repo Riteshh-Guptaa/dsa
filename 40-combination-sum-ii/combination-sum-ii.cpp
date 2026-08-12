@@ -1,6 +1,6 @@
 class Solution {
 public:
-    void reversal(vector<vector<int>> &ans, vector<int> &curr, vector<int> &candidates, int target, int idx){
+    void reversal(vector<vector<int>> &ans, vector<int> &curr, vector<int> candidates, int target, int idx){
         if(target == 0){
             ans.push_back(curr);
             return;
@@ -9,7 +9,6 @@ public:
         for(int i = idx; i < candidates.size(); i++){
             if(i > idx && candidates[i] == candidates[i - 1]) continue;
             if(candidates[i] > target) break;
-
             curr.push_back(candidates[i]);
             reversal(ans, curr, candidates, target - candidates[i], i + 1);
             curr.pop_back();
