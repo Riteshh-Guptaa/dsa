@@ -26,8 +26,7 @@ public:
         }
         return head;
     }
-
-    Node* addingptr(Node* head){
+    Node* addingptrs(Node* head){
         Node* curr = head;
         while(curr){
             Node* temp = curr->random;
@@ -38,16 +37,16 @@ public:
         return head;
     }
     Node* copyRandomList(Node* head) {
-        Node* newN = execute(head);
-        Node* newNode = addingptr(head);
+        Node* temp1 = execute(head);
+        Node* temp = addingptrs(head);
         Node* dummy = new Node(-1);
         Node* curr = dummy;
-        Node* temp = head;
-        while(temp){
-            curr->next = temp->next;
-            temp->next = temp->next->next;
+        Node* temp2 = temp;
+        while(temp2){
+            curr->next = temp2->next;
+            temp2->next = temp2->next->next;
             curr = curr->next;
-            temp = temp->next;
+            temp2 = temp2->next;
         }
         return dummy->next;
     }
