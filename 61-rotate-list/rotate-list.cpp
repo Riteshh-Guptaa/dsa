@@ -12,7 +12,7 @@ class Solution {
 public:
     int count(ListNode* head){
         int cnt = 0;
-        while(head != NULL){
+        while(head){
             cnt++;
             head = head->next;
         }
@@ -23,28 +23,23 @@ public:
             return head;
         }
         int cnt = count(head);
-
         k %= cnt;
         if(k == 0) return head;
-
+        ListNode* curr = head;
         int req = cnt - k;
-        ListNode* temp = head;
         int i = 1;
-        while(temp != NULL && i < req){
-            temp = temp->next;
+        while(curr != NULL && i < req){
+            curr = curr->next;
             i++;
         }
-
-        ListNode* newHead = temp->next;
-        temp->next = NULL;
-        ListNode* dummy = newHead;
-        while(dummy->next){
-            dummy = dummy->next;
+        ListNode* newHead = curr->next;
+        curr->next = NULL;
+        ListNode* temp = newHead;
+        while(temp->next){
+            temp = temp->next;
         }
-        dummy->next = head;
-        head = newHead;
-        return head;
-
+        temp->next = head;
+        return newHead;
 
     }
 };
