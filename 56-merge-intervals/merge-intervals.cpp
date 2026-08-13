@@ -6,7 +6,7 @@ public:
         for(int i = 0; i < nums.size(); i++){
             if(result.empty() || result.back()[1] < nums[i][0]){
                 result.push_back(nums[i]);
-            }else if(result.back()[1] >= nums[i][0]){
+            }else{
                 result.back()[1] = max(result.back()[1], nums[i][1]);
             }
         }
