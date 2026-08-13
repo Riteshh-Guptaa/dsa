@@ -265,4 +265,12 @@
 |  |
 | ------- |
 | [0037-sudoku-solver](https://github.com/Riteshh-Guptaa/dsa/tree/master/0037-sudoku-solver) |
+## Quicksort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
+## Bubble Sort
+|  |
+| ------- |
+| [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
 <!---LeetCode Topics End-->
