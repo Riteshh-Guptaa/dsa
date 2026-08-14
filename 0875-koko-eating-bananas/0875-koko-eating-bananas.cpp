@@ -1,24 +1,23 @@
 class Solution {
 public:
-    long long finder(int mid, vector<int> &piles){
+    long long eater(vector<int> &piles, int mid){
         long long cnt = 0;
-        for(int num : piles){
-            cnt += ceil(double(num)/mid);
-
+        for(int i = 0; i < piles.size(); i++){
+            cnt += ceil((double)piles[i]/mid);
         }
         return cnt;
     }
-
     int minEatingSpeed(vector<int>& piles, int h) {
         int low = 1;
-        int high = *max_element(piles.begin(), piles.end());
-
+        int high = INT_MIN;
+        for(int i = 0; i < piles.size(); i++){
+            high = max(high, piles[i]);
+        }
         if(h < piles.size()) return -1;
-
         while(low <= high){
             int mid = low + (high - low)/2;
 
-            if(finder(mid, piles) > h){
+            if(eater(piles, mid) > h){
                 low = mid + 1;
             }else{
                 high = mid - 1;
