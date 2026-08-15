@@ -1,15 +1,16 @@
 class Solution {
 public:
-    int solver(vector<int> &nums, int mid){
+    int finder(vector<int> &nums, int mid){
         int cnt = 1;
-        int sum = nums[0];
+        int pos = nums[0];
         for(int i = 1; i < nums.size(); i++){
-            if(nums[i] + sum <= mid){
-                sum += nums[i];
+            if(nums[i] + pos <= mid){
+                pos += nums[i];
             }else{
                 cnt++;
-                sum = nums[i];
+                pos = nums[i];
             }
+
         }
         return cnt;
     }
@@ -18,10 +19,10 @@ public:
         int high = accumulate(nums.begin(), nums.end(), 0);
         while(low <= high){
             int mid = low + (high - low)/2;
-            if(solver(nums, mid) <= k){
-                high = mid - 1;
-            }else{
+            if(finder(nums, mid) > k){
                 low = mid + 1;
+            }else{
+                high = mid - 1;
             }
         }
         return low;
