@@ -262,6 +262,7 @@
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0022-generate-parentheses) |
+| [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 ## Algorithm X
 |  |
 | ------- |
