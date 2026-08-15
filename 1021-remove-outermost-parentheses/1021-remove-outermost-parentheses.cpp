@@ -9,16 +9,13 @@ public:
                     s[j++] = s[i];
                 }
                 depth++;
-            }
-            else{
+            }else{
                 depth--;
                 if(depth > 0){
                     s[j++] = s[i];
                 }
             }
         }
-
-        s.resize(j);
-        return s;
+        return s.substr(0, j);   
     }
 };
