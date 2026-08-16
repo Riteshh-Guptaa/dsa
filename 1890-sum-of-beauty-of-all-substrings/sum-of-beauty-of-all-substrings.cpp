@@ -2,27 +2,26 @@ class Solution {
 public:
     int beautySum(string s) {
         int cnt = 0;
+        int beauty = 0;
         for(int i = 0; i < s.size(); i++){
             vector<int> v(26, 0);
+            
             for(int j = i; j < s.size(); j++){
-                v[s[j] - 'a']++;
                 int mini = INT_MAX;
-                int maxi = INT_MIN;
-
-                for(int i = 0; i < 26; i++){
-                    if(v[i] >= 1){
-                        mini = min(mini, v[i]);
+            int maxi = INT_MIN;
+                v[s[j] - 'a']++;
+                for(int k = 0; k < 26; k++){
+                    
+                    if(v[k] >= 1){
+                        mini = min(v[k], mini);
                     }
-                    maxi = max(maxi, v[i]);
+                    maxi = max(maxi, v[k]);
                 }
-
-                int beauty = maxi - mini;
+                beauty = maxi - mini;
                 cnt += beauty;
             }
 
-
         }
         return cnt;
-        
     }
 };
