@@ -39,6 +39,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/Riteshh-Guptaa/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Riteshh-Guptaa/dsa/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Riteshh-Guptaa/dsa/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## Two Pointers
@@ -82,6 +83,7 @@
 | [0088-merge-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0088-merge-sorted-array) |
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
+| [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 ## Merge Sort
 |  |
@@ -100,6 +102,7 @@
 | [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/Riteshh-Guptaa/dsa/tree/master/0205-isomorphic-strings) |
+| [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
 | [0282-expression-add-operators](https://github.com/Riteshh-Guptaa/dsa/tree/master/0282-expression-add-operators) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
