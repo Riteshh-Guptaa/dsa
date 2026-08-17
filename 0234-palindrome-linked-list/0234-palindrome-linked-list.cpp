@@ -14,31 +14,34 @@ public:
         if(head == NULL || head->next == NULL){
             return head;
         }
-
-        ListNode* newHead = reverse(head->next);
+        ListNode* reverseHead = reverse(head->next);
         ListNode* front = head->next;
         front->next = head;
         head->next = NULL;
-        return newHead;
+        return reverseHead;
     }
     bool isPalindrome(ListNode* head) {
-        if(head == NULL ||  head->next == NULL){
-            return head;
-        }
-        ListNode* temp = head;
+        ListNode* fast = head;
         ListNode* slow = head;
-        ListNode* fast = head->next;
+        if(head == NULL || head->next == NULL){
+            return true;
+        }
+
+        fast = fast->next;
         while(fast != NULL && fast->next != NULL){
             slow = slow->next;
             fast = fast->next->next;
         }
-        ListNode* reverseHead = reverse(slow->next);
-        while(reverseHead != NULL){
-            if(temp->val != reverseHead->val){
+        ListNode* newNode = slow->next;
+        slow->next = NULL;
+        ListNode* temp = head;
+        ListNode* reverseHead = reverse(newNode);
+        while(reverseHead){
+            if(reverseHead->val != temp->val){
                 return false;
             }
-            temp = temp->next;
             reverseHead = reverseHead->next;
+            temp = temp->next;
         }
         return true;
     }
