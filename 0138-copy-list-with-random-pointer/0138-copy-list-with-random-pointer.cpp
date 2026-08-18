@@ -17,36 +17,40 @@ public:
 class Solution {
 public:
     Node* execute(Node* head){
-        Node* curr = head;
-        while(curr){
-            Node* temp = new Node(curr->val);
-            temp->next = curr->next;
-            curr->next = temp;
-            curr = temp->next;
+        Node* temp = head;
+        while(temp){
+            Node* newNode = new Node(temp->val);
+            newNode->next = temp->next;
+            temp->next = newNode;
+            temp = newNode->next;
         }
         return head;
     }
+
     Node* addingptrs(Node* head){
-        Node* curr = head;
-        while(curr){
-            Node* temp = curr->random;
-            if(temp) curr->next->random = temp->next;
-            else curr->next->random = temp;
-            curr = curr->next->next;
+        Node* temp = head;
+        while(temp){
+            Node* newRandom = temp->random;
+            if(newRandom) temp->next->random = newRandom->next;
+            else temp->next->random = NULL;
+            temp = temp->next->next;
         }
         return head;
     }
     Node* copyRandomList(Node* head) {
-        Node* temp1 = execute(head);
+
+        if(head == NULL){
+            return head;
+        }
+        Node* newN = execute(head);
         Node* temp = addingptrs(head);
         Node* dummy = new Node(-1);
         Node* curr = dummy;
-        Node* temp2 = temp;
-        while(temp2){
-            curr->next = temp2->next;
-            temp2->next = temp2->next->next;
+        while(temp){
+            curr->next = temp->next;
+            temp->next = temp->next->next;
             curr = curr->next;
-            temp2 = temp2->next;
+            temp = temp->next;
         }
         return dummy->next;
     }
