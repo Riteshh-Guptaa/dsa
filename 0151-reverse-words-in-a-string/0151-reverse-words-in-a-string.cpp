@@ -8,11 +8,11 @@ public:
             if(i >= s.size()) return ans;
             int j = i;
             while(j < s.size() && s[j] != ' ') j++;
-            string sub = s.substr(i, j - i);
+            string sub = s.substr(i, j - i); 
             if(ans.empty()) ans = sub;
             else ans = sub + " " + ans;
             i = j;
-        }
+        } 
         return ans;
     }
 };
