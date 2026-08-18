@@ -1,14 +1,13 @@
 class Solution {
 public:
     string removeOuterParentheses(string s) {
-        int j = 0;
-        int depth = 0;
+        int j = 0, depth = 0;
         for(int i = 0; i < s.size(); i++){
             if(s[i] == '('){
-                if(depth > 0){
+                depth++;
+                if(depth > 1){
                     s[j++] = s[i];
                 }
-                depth++;
             }else{
                 depth--;
                 if(depth > 0){
@@ -16,6 +15,7 @@ public:
                 }
             }
         }
-        return s.substr(0, j);   
+        s.resize(j);
+        return s;
     }
 };
