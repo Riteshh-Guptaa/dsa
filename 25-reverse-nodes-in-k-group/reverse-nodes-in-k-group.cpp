@@ -14,46 +14,44 @@ public:
         if(head == NULL || head->next == NULL){
             return head;
         }
-        ListNode* newHead = reverse(head->next);
+
+        ListNode* reverseHead = reverse(head->next);
         ListNode* front = head->next;
         front->next = head;
         head->next = NULL;
-        return newHead;
+        return reverseHead;
     }
 
     ListNode* kthFinder(ListNode* head, int k){
         int cnt = 1;
         while(head != NULL && cnt < k){
-            head = head->next;
             cnt++;
+            head = head->next;
         }
         return head;
     }
     ListNode* reverseKGroup(ListNode* head, int k) {
-        ListNode* temp = head;
+        ListNode* curr = head;
         ListNode* prev = NULL;
-        while(temp != NULL){
-            
-            ListNode* kth = kthFinder(temp, k);
+        while(curr){
+            ListNode* kth = kthFinder(curr, k);
             if(kth == NULL){
-                if(prev) prev->next = temp;
+                if(prev) prev->next = curr;
                 return head;
             }
-
             ListNode* newNode = kth->next;
             kth->next = NULL;
-            ListNode* reverseHead = reverse(temp);
+            ListNode* reverseHead = reverse(curr);
 
-            if(temp == head){
+            if(curr == head){
                 head = reverseHead;
-                prev = temp;
+                prev = curr;
             }else{
                 prev->next = reverseHead;
-                prev = temp;
+                prev = curr;
             }
-            temp = newNode;
+            curr = newNode;
         }
         return head;
-    
     }
 };
