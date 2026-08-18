@@ -22,24 +22,24 @@ public:
         if(head == NULL || head->next == NULL || k == 0){
             return head;
         }
+        ListNode * temp = head;
         int cnt = count(head);
         k %= cnt;
         if(k == 0) return head;
-        ListNode* curr = head;
         int req = cnt - k;
         int i = 1;
-        while(curr != NULL && i < req){
-            curr = curr->next;
+        while(temp != NULL && i < req){
+            temp = temp->next;
             i++;
         }
-        ListNode* newHead = curr->next;
-        curr->next = NULL;
-        ListNode* temp = newHead;
-        while(temp->next){
-            temp = temp->next;
+        ListNode* newNode = temp->next;
+        temp->next = NULL;
+        ListNode* curr = newNode;
+        while(curr->next){
+            curr = curr->next;
         }
-        temp->next = head;
-        return newHead;
+        curr->next = head;
+        return newNode;
 
     }
 };
