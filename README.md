@@ -120,6 +120,7 @@
 | [0048-rotate-image](https://github.com/Riteshh-Guptaa/dsa/tree/master/0048-rotate-image) |
 | [0050-powx-n](https://github.com/Riteshh-Guptaa/dsa/tree/master/0050-powx-n) |
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/Riteshh-Guptaa/dsa/tree/master/0282-expression-add-operators) |
 | [1922-count-good-numbers](https://github.com/Riteshh-Guptaa/dsa/tree/master/1922-count-good-numbers) |
 ## Array
@@ -152,6 +153,7 @@
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
+| [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
 | [0216-combination-sum-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
@@ -305,4 +307,24 @@
 | ------- |
 | [0141-linked-list-cycle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0142-linked-list-cycle-ii) |
+## Enumeration
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
+## Number Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
+## Primality Test
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
+## Sieve Theory
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
+## Prime Number Sieve
+|  |
+| ------- |
+| [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
 <!---LeetCode Topics End-->
