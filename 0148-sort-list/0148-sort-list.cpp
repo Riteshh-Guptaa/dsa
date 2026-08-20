@@ -10,57 +10,45 @@
  */
 class Solution {
 public:
-    ListNode* merge(ListNode* left, ListNode* right){
-        ListNode* temp1 = left;
-        ListNode* temp2 = right;
-
-        ListNode* dummyNode = new ListNode(-1);
-        ListNode* temp = dummyNode;
-
-
-        while(temp1 != NULL && temp2 != NULL){
-            if(temp1->val >= temp2->val){
-                temp->next = temp2;
-                temp2 = temp2->next;
-                temp = temp->next;
+    ListNode* merge(ListNode* l1, ListNode* l2){
+        ListNode* left = l1;
+        ListNode* right = l2;
+        ListNode* dummy = new ListNode(-1);
+        ListNode* curr = dummy;
+        while(left != NULL && right != NULL){
+            if(left->val > right->val){
+                curr->next = right;
+                right = right->next;
+                curr = curr->next;
             }else{
-                temp->next = temp1;
-                temp1 = temp1->next;
-                temp = temp->next;
+                curr->next = left;
+                curr = curr->next;
+                left = left->next;
             }
-            temp->next = NULL;
         }
 
-        while(temp1) temp->next = temp1, temp1 = temp1->next, temp = temp->next;
-        while(temp2) temp->next = temp2, temp2 = temp2->next, temp = temp->next;
+        while(left) curr->next = left, curr = curr->next, left = left->next;
+        while(right) curr->next = right, curr = curr->next, right = right->next;
 
-        return dummyNode->next;
-    }
-    ListNode* mergeSort(ListNode* head){
-        if(head == NULL || head->next == NULL){
-            return head;
-        }
-
-        ListNode* fast = head->next;
-        ListNode* slow = head;
-        while( fast != NULL && fast->next != NULL){
-            fast = fast->next->next;
-            slow = slow->next;
-        }
-        ListNode* right = slow->next;
-        slow->next = NULL;
-        ListNode* left = head;
-
-        ListNode* low = mergeSort(left);
-        ListNode* high = mergeSort(right);
-        return merge(low, high);
+        return dummy->next;
     }
     ListNode* sortList(ListNode* head) {
         if(head == NULL || head->next == NULL){
             return head;
         }
-      
 
-        return mergeSort(head);
+        ListNode* slow = head;
+        ListNode* fast = head->next;
+        while(fast != NULL && fast->next != NULL){
+            fast = fast->next->next;
+            slow = slow->next;
+        }
+
+        ListNode* rightHalf = slow->next;
+        slow->next = NULL;
+        ListNode* left = sortList(head);
+        ListNode* right = sortList(rightHalf);
+        ListNode* merg = merge(left, right);
+        return merg;
     }
 };
