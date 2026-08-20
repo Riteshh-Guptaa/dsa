@@ -19,23 +19,26 @@ public:
         return cnt;
     }
     ListNode* removeNthFromEnd(ListNode* head, int n) {
+        if(head == NULL){
+            return NULL;
+        }
         int cnt = count(head);
         int req = cnt - n;
+
         if(req == 0){
-            if(head) return head->next;
-            else NULL;
+            head = head->next;
+            return head;
         }
         ListNode* temp = head;
         int i = 1;
         while(temp != NULL && i < req){
-            temp = temp->next;
             i++;
+            temp= temp->next;
         }
-        ListNode* newNode = NULL;
-        ListNode* deletedone = temp->next;
-        if(deletedone) newNode = deletedone->next;
-        temp->next = newNode;
-        delete deletedone;
+
+        ListNode* duplicate = temp->next;
+        temp->next = temp->next->next;
+        delete duplicate;
         return head;
     }
 };
