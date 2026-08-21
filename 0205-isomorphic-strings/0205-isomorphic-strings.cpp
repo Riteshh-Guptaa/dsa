@@ -11,6 +11,7 @@ public:
             if(mp1.count(a) && mp1[a] != b){
                 return false;
             }
+
             if(mp2.count(b) && mp2[b] != a){
                 return false;
             }
@@ -18,7 +19,6 @@ public:
             mp1[a] = b;
             mp2[b] = a;
         }
-
         return true;
     }
 };
