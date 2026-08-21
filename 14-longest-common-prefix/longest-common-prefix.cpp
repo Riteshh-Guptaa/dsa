@@ -8,7 +8,6 @@ public:
                 if(i >= strs[j].size() || ch != strs[j][i]){
                     return ans;
                 }
-                
             }
             ans += ch;
         }
