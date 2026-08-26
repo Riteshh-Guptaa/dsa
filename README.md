@@ -79,6 +79,7 @@
 | [0735-asteroid-collision](https://github.com/Riteshh-Guptaa/dsa/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Riteshh-Guptaa/dsa/tree/master/0907-sum-of-subarray-minimums) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
+| [2104-sum-of-subarray-ranges](https://github.com/Riteshh-Guptaa/dsa/tree/master/2104-sum-of-subarray-ranges) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -180,6 +181,7 @@
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Riteshh-Guptaa/dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1539-kth-missing-positive-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/1539-kth-missing-positive-number) |
 | [1901-find-a-peak-element-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1901-find-a-peak-element-ii) |
+| [2104-sum-of-subarray-ranges](https://github.com/Riteshh-Guptaa/dsa/tree/master/2104-sum-of-subarray-ranges) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Riteshh-Guptaa/dsa/tree/master/2149-rearrange-array-elements-by-sign) |
 ## Trie
 |  |
@@ -361,4 +363,5 @@
 | [0042-trapping-rain-water](https://github.com/Riteshh-Guptaa/dsa/tree/master/0042-trapping-rain-water) |
 | [0496-next-greater-element-i](https://github.com/Riteshh-Guptaa/dsa/tree/master/0496-next-greater-element-i) |
 | [0907-sum-of-subarray-minimums](https://github.com/Riteshh-Guptaa/dsa/tree/master/0907-sum-of-subarray-minimums) |
+| [2104-sum-of-subarray-ranges](https://github.com/Riteshh-Guptaa/dsa/tree/master/2104-sum-of-subarray-ranges) |
 <!---LeetCode Topics End-->
