@@ -64,6 +64,7 @@
 | [0160-intersection-of-two-linked-lists](https://github.com/Riteshh-Guptaa/dsa/tree/master/0160-intersection-of-two-linked-lists) |
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0234-palindrome-linked-list) |
+| [0283-move-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0283-move-zeroes) |
 | [0876-middle-of-the-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0876-middle-of-the-linked-list) |
 | [2095-delete-the-middle-node-of-a-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2149-rearrange-array-elements-by-sign](https://github.com/Riteshh-Guptaa/dsa/tree/master/2149-rearrange-array-elements-by-sign) |
@@ -172,6 +173,7 @@
 | [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
 | [0216-combination-sum-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0240-search-a-2d-matrix-ii) |
+| [0283-move-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/Riteshh-Guptaa/dsa/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/Riteshh-Guptaa/dsa/tree/master/0493-reverse-pairs) |
