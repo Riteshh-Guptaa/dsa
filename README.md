@@ -75,6 +75,7 @@
 | [0225-implement-stack-using-queues](https://github.com/Riteshh-Guptaa/dsa/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Riteshh-Guptaa/dsa/tree/master/0232-implement-queue-using-stacks) |
 | [0234-palindrome-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0234-palindrome-linked-list) |
+| [0402-remove-k-digits](https://github.com/Riteshh-Guptaa/dsa/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Riteshh-Guptaa/dsa/tree/master/0496-next-greater-element-i) |
 | [0735-asteroid-collision](https://github.com/Riteshh-Guptaa/dsa/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Riteshh-Guptaa/dsa/tree/master/0907-sum-of-subarray-minimums) |
@@ -119,6 +120,7 @@
 | [0205-isomorphic-strings](https://github.com/Riteshh-Guptaa/dsa/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
 | [0282-expression-add-operators](https://github.com/Riteshh-Guptaa/dsa/tree/master/0282-expression-add-operators) |
+| [0402-remove-k-digits](https://github.com/Riteshh-Guptaa/dsa/tree/master/0402-remove-k-digits) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Riteshh-Guptaa/dsa/tree/master/1781-sum-of-beauty-of-all-substrings) |
@@ -248,6 +250,7 @@
 ## Greedy
 |  |
 | ------- |
+| [0402-remove-k-digits](https://github.com/Riteshh-Guptaa/dsa/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 ## Prefix Sum
 |  |
@@ -361,6 +364,7 @@
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Riteshh-Guptaa/dsa/tree/master/0042-trapping-rain-water) |
+| [0402-remove-k-digits](https://github.com/Riteshh-Guptaa/dsa/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Riteshh-Guptaa/dsa/tree/master/0496-next-greater-element-i) |
 | [0907-sum-of-subarray-minimums](https://github.com/Riteshh-Guptaa/dsa/tree/master/0907-sum-of-subarray-minimums) |
 | [2104-sum-of-subarray-ranges](https://github.com/Riteshh-Guptaa/dsa/tree/master/2104-sum-of-subarray-ranges) |
