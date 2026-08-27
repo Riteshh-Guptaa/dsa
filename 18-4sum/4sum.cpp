@@ -7,14 +7,13 @@ public:
             if(i > 0 && nums[i] == nums[i - 1]) continue;
             for(int j = i + 1; j < nums.size(); j++){
                 if(j > i + 1 && nums[j] == nums[j - 1]) continue;
-
                 int k = j + 1;
                 int l = nums.size() - 1;
+                long long sum = 0;
                 while(k < l){
-                    long long sum = nums[i];
-                    sum += nums[j];
-                    sum += nums[k];
-                    sum += nums[l];
+                   
+                   long long sum = (long long)nums[i] + nums[j] + nums[k] + nums[l];
+
                     if(sum == target){
                         ans.push_back({nums[i], nums[j], nums[k], nums[l]});
                         k++;
