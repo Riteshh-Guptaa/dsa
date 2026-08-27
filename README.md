@@ -32,6 +32,7 @@
 ## Hash Table
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0001-two-sum) |
 | [0013-roman-to-integer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0037-sudoku-solver](https://github.com/Riteshh-Guptaa/dsa/tree/master/0037-sudoku-solver) |
@@ -141,6 +142,7 @@
 ## Array
 |  |
 | ------- |
+| [0001-two-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0001-two-sum) |
 | [0004-median-of-two-sorted-arrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/0004-median-of-two-sorted-arrays) |
 | [0014-longest-common-prefix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0014-longest-common-prefix) |
 | [0015-3sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0015-3sum) |
