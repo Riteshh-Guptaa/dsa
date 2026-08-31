@@ -1,11 +1,11 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        string ans = "";
         int i = 0;
+        string ans = "";
         while(i < s.size()){
             while(i < s.size() && s[i] == ' ') i++;
-            if(i >= s.size()) return ans;
+            if(i >= s.size()) break;
             int j = i;
             while(j < s.size() && s[j] != ' ') j++;
             string sub = s.substr(i, j - i);
@@ -14,6 +14,5 @@ public:
             i = j;
         }
         return ans;
-
     }
 };
