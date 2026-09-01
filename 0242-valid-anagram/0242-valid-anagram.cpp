@@ -6,16 +6,15 @@ public:
         for(int i = 0; i < s.size(); i++){
             v[s[i] - 'a']++;
         }
-
-        for(int j = 0; j < t.size(); j++){
-            v[t[j] - 'a']--;
+        for(int i = 0; i < t.size(); i++){
+            v[t[i] - 'a']--;
         }
 
-        for(int k : v){
-            if(k != 0){
+        for(int x : v){
+            if(x != 0){
                 return false;
             }
         }
-        return true;       
+        return true;
     }
 };
