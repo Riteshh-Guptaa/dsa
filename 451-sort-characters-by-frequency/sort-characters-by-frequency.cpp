@@ -1,21 +1,21 @@
 class Solution {
 public:
     string frequencySort(string s) {
+        string ans = "";
         unordered_map<char, int> mp;
         for(int i = 0; i < s.size(); i++){
             mp[s[i]]++;
         }
-        int n = s.size();
-        string ans = "";
-        vector<vector<char>> ch(n + 1);
-        for(auto i : mp){
-            ch[i.second].push_back(i.first);
+
+        vector<vector<char>> v(s.size() + 1);
+        for(auto x : mp){
+            v[x.second].push_back(x.first);
         }
 
-        for(int i = n; i >= 1; i--){
-            for(char c : ch[i]){
+        for(int i = s.size(); i >= 0; i--){
+            for(char ch : v[i]){
                 for(int j = 0; j < i; j++){
-                    ans += c;
+                    ans += ch;
                 }
             }
         }
