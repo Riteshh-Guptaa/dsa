@@ -13,9 +13,9 @@ public:
                 }else{
                     alive = false;
                 }
-            } 
+            }
             if(alive) st.push_back(a);
-        } 
+        }
         return st;
     }
 };
