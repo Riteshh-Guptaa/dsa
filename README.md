@@ -48,6 +48,7 @@
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Riteshh-Guptaa/dsa/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
+| [0424-longest-repeating-character-replacement](https://github.com/Riteshh-Guptaa/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0460-lfu-cache](https://github.com/Riteshh-Guptaa/dsa/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Riteshh-Guptaa/dsa/tree/master/0496-next-greater-element-i) |
@@ -132,6 +133,7 @@
 | [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
 | [0282-expression-add-operators](https://github.com/Riteshh-Guptaa/dsa/tree/master/0282-expression-add-operators) |
 | [0402-remove-k-digits](https://github.com/Riteshh-Guptaa/dsa/tree/master/0402-remove-k-digits) |
+| [0424-longest-repeating-character-replacement](https://github.com/Riteshh-Guptaa/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Riteshh-Guptaa/dsa/tree/master/1781-sum-of-beauty-of-all-substrings) |
@@ -413,5 +415,6 @@
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/Riteshh-Guptaa/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0424-longest-repeating-character-replacement](https://github.com/Riteshh-Guptaa/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [1004-max-consecutive-ones-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
