@@ -52,6 +52,7 @@
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0460-lfu-cache](https://github.com/Riteshh-Guptaa/dsa/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Riteshh-Guptaa/dsa/tree/master/0496-next-greater-element-i) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Riteshh-Guptaa/dsa/tree/master/1781-sum-of-beauty-of-all-substrings) |
 ## Two Pointers
 |  |
@@ -148,6 +149,7 @@
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
 | [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
 | [0282-expression-add-operators](https://github.com/Riteshh-Guptaa/dsa/tree/master/0282-expression-add-operators) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1922-count-good-numbers](https://github.com/Riteshh-Guptaa/dsa/tree/master/1922-count-good-numbers) |
 ## Array
 |  |
@@ -199,6 +201,7 @@
 | [0907-sum-of-subarray-minimums](https://github.com/Riteshh-Guptaa/dsa/tree/master/0907-sum-of-subarray-minimums) |
 | [1004-max-consecutive-ones-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Riteshh-Guptaa/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Riteshh-Guptaa/dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1539-kth-missing-positive-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/1539-kth-missing-positive-number) |
 | [1901-find-a-peak-element-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1901-find-a-peak-element-ii) |
@@ -279,6 +282,7 @@
 | ------- |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -417,4 +421,5 @@
 | [0003-longest-substring-without-repeating-characters](https://github.com/Riteshh-Guptaa/dsa/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/Riteshh-Guptaa/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [1004-max-consecutive-ones-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1004-max-consecutive-ones-iii) |
+| [1248-count-number-of-nice-subarrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 <!---LeetCode Topics End-->
