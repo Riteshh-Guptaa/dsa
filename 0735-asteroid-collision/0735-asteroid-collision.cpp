@@ -4,13 +4,13 @@ public:
         vector<int> st;
         for(int a : asteroids){
             bool alive = true;
-            while(alive && !st.empty() && a < 0 && st.back() > 0){
-                if(st.back() < -a){
-                    st.pop_back();
-                }else if(st.back() == -a){
-                    st.pop_back();
+            while(!st.empty() && a < 0 && st.back() > 0 && alive){
+                if(st.back() > -a){
                     alive = false;
+                }else if(st.back() < -a){
+                    st.pop_back();
                 }else{
+                    st.pop_back();
                     alive = false;
                 }
             }
