@@ -191,6 +191,7 @@
 | [0204-count-primes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0204-count-primes) |
 | [0216-combination-sum-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0216-combination-sum-iii) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0240-search-a-2d-matrix-ii) |
+| [0260-single-number-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0260-single-number-iii) |
 | [0283-move-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 | [0485-max-consecutive-ones](https://github.com/Riteshh-Guptaa/dsa/tree/master/0485-max-consecutive-ones) |
@@ -293,6 +294,7 @@
 | [0029-divide-two-integers](https://github.com/Riteshh-Guptaa/dsa/tree/master/0029-divide-two-integers) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/0136-single-number) |
+| [0260-single-number-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0260-single-number-iii) |
 ## Matrix
 |  |
 | ------- |
