@@ -2,8 +2,7 @@ class Solution {
 public:
     vector<int> singleNumber(vector<int>& nums) {
         long long xr = 0;
-        int n = nums.size();
-        for(int i = 0; i < n; i++) xr ^= nums[i];
+        for(int num : nums) xr ^= num;
         int rightMost = (xr & (xr - 1)) ^ xr;
         int a = 0;
         int b = 0;
@@ -14,6 +13,7 @@ public:
                 b ^= num;
             }
         }
-        return {a, b};
+        return {a,b};
+
     }
 };
