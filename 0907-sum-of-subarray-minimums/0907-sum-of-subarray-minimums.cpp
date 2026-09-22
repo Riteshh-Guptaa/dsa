@@ -1,13 +1,12 @@
 class Solution {
 public:
     int sumSubarrayMins(vector<int>& arr) {
-        const long long mod = 1e9 + 7;
-        int n = arr.size();
+        const long mod = 1e9 + 7;
         stack<int> st;
         long long ans = 0;
-        for(int i = 0; i <= n; i++){
-            int curr = (i == n) ? 0 : arr[i];
-            while(!st.empty() && arr[st.top()] >= curr){
+        for(int i = 0; i <= arr.size(); i++){
+            int idx = (i == arr.size()) ? -1 : arr[i];
+            while(!st.empty() && arr[st.top()] >= idx){
                 int mid = st.top();
                 st.pop();
 
@@ -15,13 +14,15 @@ public:
                 int right = i;
                 int leftIdx = mid - left;
                 int rightIdx = right - mid;
-                ans += (long long)arr[mid] * leftIdx * rightIdx;
+
+                ans += (long long)arr[mid] * rightIdx * leftIdx;
                 ans %= mod;
             }
-            if(i < n){
+            if(i < arr.size()){
                 st.push(i);
             }
         }
         return ans;
+        
     }
 };
