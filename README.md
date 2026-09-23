@@ -175,6 +175,7 @@
 | [0054-spiral-matrix](https://github.com/Riteshh-Guptaa/dsa/tree/master/0054-spiral-matrix) |
 | [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/Riteshh-Guptaa/dsa/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/Riteshh-Guptaa/dsa/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0081-search-in-rotated-sorted-array-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0081-search-in-rotated-sorted-array-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0084-largest-rectangle-in-histogram) |
@@ -255,6 +256,7 @@
 | [0039-combination-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0040-combination-sum-ii) |
 | [0051-n-queens](https://github.com/Riteshh-Guptaa/dsa/tree/master/0051-n-queens) |
+| [0078-subsets](https://github.com/Riteshh-Guptaa/dsa/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0216-combination-sum-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0216-combination-sum-iii) |
@@ -296,6 +298,7 @@
 |  |
 | ------- |
 | [0029-divide-two-integers](https://github.com/Riteshh-Guptaa/dsa/tree/master/0029-divide-two-integers) |
+| [0078-subsets](https://github.com/Riteshh-Guptaa/dsa/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0137-single-number-ii) |
