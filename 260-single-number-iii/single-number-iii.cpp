@@ -7,13 +7,12 @@ public:
         int a = 0;
         int b = 0;
         for(int num : nums){
-            if((num & rightMost) != 0){
+            if((rightMost & num) != 0){
                 a ^= num;
             }else{
                 b ^= num;
             }
         }
-        return {a,b};
-
+        return {a, b};
     }
 };
