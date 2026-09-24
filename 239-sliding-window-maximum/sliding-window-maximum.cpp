@@ -13,11 +13,9 @@ public:
             }
 
             dq.push_back(i);
-
             if(i >= k - 1){
                 v.push_back(nums[dq.front()]);
             }
-
         }
         return v;
     }
