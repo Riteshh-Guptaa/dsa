@@ -3,9 +3,10 @@ public:
     int trap(vector<int>& height) {
         int left = 0;
         int right = height.size() - 1;
-        int ans = 0;
         int leftMax = INT_MIN;
         int rightMax = INT_MIN;
+        int ans = 0;
+
         while(left < right){
             if(height[left] <= height[right]){
                 if(height[left] >= leftMax){
