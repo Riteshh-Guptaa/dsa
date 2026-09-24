@@ -4,12 +4,12 @@ public:
         vector<int> ans;
         for(int asteroid : asteroids){
             bool alive = true;
-            while(!ans.empty() && alive && ans.back() > 0 && asteroid < 0){
-                if(-asteroid > ans.back()){
+            while(!ans.empty() && ans.back() > 0 && asteroid < 0 && alive){
+                if(ans.back() < -asteroid){
                     ans.pop_back();
-                }else if(-asteroid == ans.back()){
+                }else if(ans.back() == -asteroid){
+                    ans.pop_back();
                     alive = false;
-                    ans.pop_back();
                 }else{
                     alive = false;
                 }
