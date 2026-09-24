@@ -8,17 +8,16 @@ public:
     
     void push(int value) {
         st.push(value);
-        if(mn.empty() || value <= mn.top()){
+        if(mn.empty() || mn.top() >= value){
             mn.push(value);
         }
-
     }
     
     void pop() {
         if(st.top() == mn.top()){
             mn.pop();
         }
-        return st.pop();
+        st.pop();
     }
     
     int top() {
