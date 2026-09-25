@@ -1,10 +1,44 @@
 class LRUCache {
 public:
-    int capacity;
-    unordered_map<int, pair<int, list<int>::iterator>> mp;
-    list<int> lru;
+    struct Node{
+        int value;
+        Node* next;
+        Node* prev;
+
+        Node(int val){
+            value = val;
+            next = nullptr;
+            prev = nullptr;
+        }
+    };
+
+    int cap;
+
+    unordered_map<Node*, int> nodekey;
+    unordered_map<int, Node*> mp;
+
+    Node* head = new Node(-1);
+    Node* tail = new Node(-1);
+
+
     LRUCache(int capacity) {
-        this->capacity = capacity;
+        cap = capacity;
+
+        head->next = tail;
+        tail->prev = head;
+
+    }
+
+    void removeNode(Node* node){
+        node->next->prev = node->prev;
+        node->prev->next = node->next;
+    }
+
+    void insertNode(Node* node){
+        node->next = head->next;
+        node->prev = head;
+        head->next->prev = node;
+        head->next = node;
     }
     
     int get(int key) {
@@ -12,31 +46,34 @@ public:
             return -1;
         }
 
-        lru.erase(mp[key].second);
-        lru.push_front(key);
-        mp[key].second = lru.begin();
-        return mp[key].first;
+        Node* node = mp[key];
+        removeNode(node);
+        insertNode(node);
+        return node->value;
     }
-
-
     
     void put(int key, int value) {
         if(mp.find(key) != mp.end()){
-            lru.erase(mp[key].second);
-            lru.push_front(key);
-            mp[key].first = value;
-            mp[key].second = lru.begin();
+            Node* node = mp[key];
+            node->value = value;
+            removeNode(node);
+            insertNode(node);
             return;
         }
-        if(mp.size() == capacity){
-            int oldKey = lru.back();
-            lru.pop_back();
 
-            mp.erase(oldKey);
+        if(mp.size() == cap){
+            Node* lru = tail->prev;
+            int newKey = nodekey[lru];
+            nodekey.erase(lru);
+            mp.erase(newKey);
+            removeNode(lru);
+            delete lru;
         }
-        lru.push_front(key);
-        mp[key] = {value, lru.begin()};
-    
+
+        Node* node = new Node(value);
+        mp[key] = node;
+        nodekey[node] = key;
+        insertNode(node); 
     }
 };
 
