@@ -6,7 +6,6 @@ public:
         int leftMax = INT_MIN;
         int rightMax = INT_MIN;
         int ans = 0;
-
         while(left < right){
             if(height[left] <= height[right]){
                 if(height[left] >= leftMax){
