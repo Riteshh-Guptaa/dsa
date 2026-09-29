@@ -1,43 +1,42 @@
 class Solution {
 public:
-    int ansFinder(vector<int> &nums){
-        stack<int> st;
+    int maxiArea(vector<int> &nums){
         int n = nums.size();
-        int maxxi = 0;
+        stack<int> st;
+        int maxi = 0;
+
         for(int i = 0; i <= n; i++){
-            int curr = (i == n) ? -1 : nums[i];
-            while(!st.empty() && nums[st.top()] > curr){
+            while(!st.empty() && (i == n || nums[st.top()] > nums[i])){
                 int mid = st.top();
                 st.pop();
 
                 int left = st.empty() ? -1 : st.top();
                 int right = i;
-
-                int ans = (long long)nums[mid] * (right - left - 1);
-                maxxi = max(ans, maxxi);
+                long long area = (long long)nums[mid] * (right - left - 1);
+                maxi = max(maxi, (int)area);
             }
             if(i < n){
                 st.push(i);
             }
         }
-        return maxxi;
-    }
+        return maxi;
+        }
+    
     int maximalRectangle(vector<vector<char>>& matrix) {
         int n = matrix.size();
         int m = matrix[0].size();
-        vector<int> v(m);
+        vector<int> ans(m, 0);
         int maxi = 0;
-
         for(int i = 0; i < n; i++){
             for(int j = 0; j < m; j++){
                 if(matrix[i][j] == '1'){
-                    v[j]++;
+                    ans[j]++;
                 }else{
-                    v[j] = 0;
+                    ans[j] = 0;
                 }
             }
-            maxi = max(maxi, ansFinder(v));
+            maxi = max(maxi, maxiArea(ans));
         }
-        return maxi;
+        return maxi;      
     }
 };
