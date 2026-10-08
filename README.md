@@ -117,6 +117,7 @@
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
+| [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
 ## Merge Sort
@@ -203,6 +204,7 @@
 | [0260-single-number-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0260-single-number-iii) |
 | [0283-move-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0283-move-zeroes) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
 | [0485-max-consecutive-ones](https://github.com/Riteshh-Guptaa/dsa/tree/master/0485-max-consecutive-ones) |
 | [0493-reverse-pairs](https://github.com/Riteshh-Guptaa/dsa/tree/master/0493-reverse-pairs) |
@@ -257,6 +259,7 @@
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Riteshh-Guptaa/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0152-maximum-product-subarray](https://github.com/Riteshh-Guptaa/dsa/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0907-sum-of-subarray-minimums](https://github.com/Riteshh-Guptaa/dsa/tree/master/0907-sum-of-subarray-minimums) |
 ## Backtracking
 |  |
@@ -298,6 +301,7 @@
 | ------- |
 | [0402-remove-k-digits](https://github.com/Riteshh-Guptaa/dsa/tree/master/0402-remove-k-digits) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
+| [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
 | [0860-lemonade-change](https://github.com/Riteshh-Guptaa/dsa/tree/master/0860-lemonade-change) |
 ## Prefix Sum
