@@ -94,6 +94,7 @@
 | [0234-palindrome-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0234-palindrome-linked-list) |
 | [0402-remove-k-digits](https://github.com/Riteshh-Guptaa/dsa/tree/master/0402-remove-k-digits) |
 | [0496-next-greater-element-i](https://github.com/Riteshh-Guptaa/dsa/tree/master/0496-next-greater-element-i) |
+| [0678-valid-parenthesis-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/Riteshh-Guptaa/dsa/tree/master/0735-asteroid-collision) |
 | [0901-online-stock-span](https://github.com/Riteshh-Guptaa/dsa/tree/master/0901-online-stock-span) |
 | [0907-sum-of-subarray-minimums](https://github.com/Riteshh-Guptaa/dsa/tree/master/0907-sum-of-subarray-minimums) |
@@ -144,6 +145,7 @@
 | [0402-remove-k-digits](https://github.com/Riteshh-Guptaa/dsa/tree/master/0402-remove-k-digits) |
 | [0424-longest-repeating-character-replacement](https://github.com/Riteshh-Guptaa/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
+| [0678-valid-parenthesis-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0678-valid-parenthesis-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/Riteshh-Guptaa/dsa/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Riteshh-Guptaa/dsa/tree/master/1781-sum-of-beauty-of-all-substrings) |
@@ -260,6 +262,7 @@
 | [0152-maximum-product-subarray](https://github.com/Riteshh-Guptaa/dsa/tree/master/0152-maximum-product-subarray) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
+| [0678-valid-parenthesis-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0907-sum-of-subarray-minimums](https://github.com/Riteshh-Guptaa/dsa/tree/master/0907-sum-of-subarray-minimums) |
 ## Backtracking
 |  |
@@ -303,6 +306,7 @@
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
+| [0678-valid-parenthesis-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0678-valid-parenthesis-string) |
 | [0860-lemonade-change](https://github.com/Riteshh-Guptaa/dsa/tree/master/0860-lemonade-change) |
 ## Prefix Sum
 |  |
@@ -359,6 +363,7 @@
 | ------- |
 | [0020-valid-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/0022-generate-parentheses) |
+| [0678-valid-parenthesis-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0678-valid-parenthesis-string) |
 | [1021-remove-outermost-parentheses](https://github.com/Riteshh-Guptaa/dsa/tree/master/1021-remove-outermost-parentheses) |
 ## Algorithm X
 |  |
