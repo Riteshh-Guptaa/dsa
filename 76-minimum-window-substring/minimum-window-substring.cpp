@@ -1,20 +1,17 @@
 class Solution {
 public:
     string minWindow(string s, string t) {
-        int hash[256] = {0};
-
+        unordered_map<char, int> mp;
+        int l = 0, r = 0, startIdx = -1, count = 0, minLen = INT_MAX;
         for(int i = 0; i < t.size(); i++){
-            hash[t[i]]++;
+            mp[t[i]]++;
         }
 
-        int r = 0, l = 0, startIdx = 0, count = 0, minLen = INT_MAX;
-
         while(r < s.size()){
-            if(hash[s[r]] > 0){
+            if(mp[s[r]] > 0){
                 count++;
             }
-
-            hash[s[r]]--;
+            mp[s[r]]--;
 
             while(count == t.size()){
                 if(r - l + 1 < minLen){
@@ -22,8 +19,8 @@ public:
                     startIdx = l;
                 }
 
-                hash[s[l]]++;
-                if(hash[s[l]] > 0){
+                mp[s[l]]++;
+                if(mp[s[l]] > 0){
                     count--;
                 }
 
