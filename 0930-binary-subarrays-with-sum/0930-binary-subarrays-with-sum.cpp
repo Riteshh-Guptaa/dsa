@@ -2,20 +2,19 @@ class Solution {
 public:
     int numSubarraysWithSum(vector<int>& nums, int goal) {
         int n = nums.size();
-        vector<int> freq(n + 1, 0);
-        freq[0] = 1;
-        int sum = 0;
+        unordered_map<int, int> mp;
+        mp[0] = 1;
         int ans = 0;
-        for(int num : nums){
-            sum += num;
+        int sum = 0;
+        for(int i = 0; i < n; i++){
+            sum += nums[i];
 
             if(sum - goal >= 0){
-                ans += freq[sum - goal];
+                ans += mp[sum - goal];
             }
 
-            freq[sum]++;
+            mp[sum]++;
         }
-    return ans;
-
+        return ans;
     }
 };
