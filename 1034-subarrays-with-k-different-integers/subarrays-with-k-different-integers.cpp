@@ -1,8 +1,10 @@
 class Solution {
 public:
+    int subarraysWithKDistinct(vector<int>& nums, int k) {
+        return atMost(nums, k) - atMost(nums, k - 1);
+    }
     int atMost(vector<int> &nums, int k){
-        int l = 0;
-        int r = 0;
+        int l = 0, r = 0;
         int ans = 0;
         unordered_map<int, int> mp;
         while(r < nums.size()){
@@ -12,14 +14,10 @@ public:
                 if(mp[nums[l]] == 0) mp.erase(nums[l]);
                 l++;
             }
+
             ans += r - l + 1;
             r++;
         }
         return ans;
-    }
-    int subarraysWithKDistinct(vector<int>& nums, int k) {
-        return atMost(nums, k) - atMost(nums, k - 1);
-        
-        
     }
 };
