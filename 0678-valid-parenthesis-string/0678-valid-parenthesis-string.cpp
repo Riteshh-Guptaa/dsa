@@ -1,8 +1,9 @@
 class Solution {
 public:
     bool checkValidString(string s) {
-        int n = s.size();
         int low = 0, high = 0;
+        int n = s.size();
+
         for(char ch : s){
             if(ch == '('){
                 low++;
@@ -15,9 +16,9 @@ public:
                 high++;
             }
             if(high < 0) return false;
-
             low = max(low, 0);
         }
         return low == 0;
+        
     }
 };
