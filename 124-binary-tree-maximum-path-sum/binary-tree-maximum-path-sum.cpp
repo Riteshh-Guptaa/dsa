@@ -9,23 +9,19 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
-
 class Solution {
 public:
-    int findMaxPath(TreeNode* root, int & maxi) {
-        if (root == NULL) return 0;
+    int sumFinder(TreeNode* root, int& maxi){
+        if(root == NULL) return 0;
 
-        int leftSum = max(0, findMaxPath(root->left, maxi));
-        int rightSum = max(0, findMaxPath(root->right, maxi));
-
-        maxi = max(maxi, root->val + leftSum + rightSum);
-
-        return root->val + max(leftSum, rightSum);
+        int lh = max(0, sumFinder(root->left, maxi));
+        int rh = max(0, sumFinder(root->right, maxi));
+        maxi = max(maxi, root->val + lh + rh);
+        return max(lh, rh) + root->val;
     }
-
     int maxPathSum(TreeNode* root) {
         int maxi = INT_MIN;
-        findMaxPath(root, maxi);
+        sumFinder(root, maxi);
         return maxi;
     }
 };
