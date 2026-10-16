@@ -11,16 +11,15 @@
  */
 class Solution {
 public:
-    bool ansFinder(TreeNode* left, TreeNode* right){
-        if(right == NULL && left == NULL) return true;
-        if(right == NULL || left == NULL) return false;
+    bool ansFinder(TreeNode* rootL, TreeNode* rootR){
+        if(rootL == NULL && rootR == NULL) return true;
+        if(rootL == NULL || rootR == NULL) return false;
+        if(rootL->val != rootR->val) return false;
 
-        if(left->val != right->val ) return false;
+        return ansFinder(rootL->left, rootR->right) && ansFinder(rootL->right, rootR->left);
 
-        return ansFinder(left->left, right->right) && ansFinder(left->right, right->left);
     }
     bool isSymmetric(TreeNode* root) {
-        if(root == NULL) return true;
         return ansFinder(root->left, root->right);
     }
 };
