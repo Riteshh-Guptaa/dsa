@@ -42,6 +42,7 @@
 | [0037-sudoku-solver](https://github.com/Riteshh-Guptaa/dsa/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/Riteshh-Guptaa/dsa/tree/master/0076-minimum-window-substring) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Riteshh-Guptaa/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0138-copy-list-with-random-pointer](https://github.com/Riteshh-Guptaa/dsa/tree/master/0138-copy-list-with-random-pointer) |
 | [0141-linked-list-cycle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0142-linked-list-cycle-ii) |
@@ -113,6 +114,7 @@
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/0004-median-of-two-sorted-arrays) |
 | [0053-maximum-subarray](https://github.com/Riteshh-Guptaa/dsa/tree/master/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Riteshh-Guptaa/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0240-search-a-2d-matrix-ii) |
@@ -202,6 +204,7 @@
 | [0085-maximal-rectangle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0085-maximal-rectangle) |
 | [0088-merge-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0090-subsets-ii) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Riteshh-Guptaa/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0118-pascals-triangle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0118-pascals-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/Riteshh-Guptaa/dsa/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0135-candy](https://github.com/Riteshh-Guptaa/dsa/tree/master/0135-candy) |
@@ -513,6 +516,7 @@
 | [0101-symmetric-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Riteshh-Guptaa/dsa/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Riteshh-Guptaa/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
@@ -531,6 +535,7 @@
 | [0101-symmetric-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0101-symmetric-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/Riteshh-Guptaa/dsa/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/Riteshh-Guptaa/dsa/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0110-balanced-binary-tree) |
 | [0114-flatten-binary-tree-to-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0114-flatten-binary-tree-to-linked-list) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0124-binary-tree-maximum-path-sum) |
