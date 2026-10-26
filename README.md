@@ -57,6 +57,7 @@
 | [0460-lfu-cache](https://github.com/Riteshh-Guptaa/dsa/tree/master/0460-lfu-cache) |
 | [0496-next-greater-element-i](https://github.com/Riteshh-Guptaa/dsa/tree/master/0496-next-greater-element-i) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Riteshh-Guptaa/dsa/tree/master/0653-two-sum-iv-input-is-a-bst) |
+| [0846-hand-of-straights](https://github.com/Riteshh-Guptaa/dsa/tree/master/0846-hand-of-straights) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0904-fruit-into-baskets](https://github.com/Riteshh-Guptaa/dsa/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0930-binary-subarrays-with-sum) |
@@ -137,6 +138,7 @@
 | [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
+| [0846-hand-of-straights](https://github.com/Riteshh-Guptaa/dsa/tree/master/0846-hand-of-straights) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1331-rank-transform-of-an-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/1331-rank-transform-of-an-array) |
 ## Merge Sort
@@ -239,6 +241,7 @@
 | [0540-single-element-in-a-sorted-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0704-binary-search) |
 | [0735-asteroid-collision](https://github.com/Riteshh-Guptaa/dsa/tree/master/0735-asteroid-collision) |
+| [0846-hand-of-straights](https://github.com/Riteshh-Guptaa/dsa/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/Riteshh-Guptaa/dsa/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/Riteshh-Guptaa/dsa/tree/master/0875-koko-eating-bananas) |
 | [0904-fruit-into-baskets](https://github.com/Riteshh-Guptaa/dsa/tree/master/0904-fruit-into-baskets) |
@@ -339,6 +342,7 @@
 | [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
 | [0678-valid-parenthesis-string](https://github.com/Riteshh-Guptaa/dsa/tree/master/0678-valid-parenthesis-string) |
+| [0846-hand-of-straights](https://github.com/Riteshh-Guptaa/dsa/tree/master/0846-hand-of-straights) |
 | [0860-lemonade-change](https://github.com/Riteshh-Guptaa/dsa/tree/master/0860-lemonade-change) |
 ## Prefix Sum
 |  |
