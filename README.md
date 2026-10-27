@@ -53,6 +53,7 @@
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0205-isomorphic-strings](https://github.com/Riteshh-Guptaa/dsa/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
+| [0347-top-k-frequent-elements](https://github.com/Riteshh-Guptaa/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Riteshh-Guptaa/dsa/tree/master/0355-design-twitter) |
 | [0424-longest-repeating-character-replacement](https://github.com/Riteshh-Guptaa/dsa/tree/master/0424-longest-repeating-character-replacement) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
@@ -128,6 +129,7 @@
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0240-search-a-2d-matrix-ii) |
+| [0347-top-k-frequent-elements](https://github.com/Riteshh-Guptaa/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0493-reverse-pairs](https://github.com/Riteshh-Guptaa/dsa/tree/master/0493-reverse-pairs) |
 ## Sorting
 |  |
@@ -139,6 +141,7 @@
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
 | [0295-find-median-from-data-stream](https://github.com/Riteshh-Guptaa/dsa/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/Riteshh-Guptaa/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
@@ -236,6 +239,7 @@
 | [0240-search-a-2d-matrix-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0240-search-a-2d-matrix-ii) |
 | [0260-single-number-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0260-single-number-iii) |
 | [0283-move-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0283-move-zeroes) |
+| [0347-top-k-frequent-elements](https://github.com/Riteshh-Guptaa/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0410-split-array-largest-sum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0410-split-array-largest-sum) |
 | [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
@@ -272,16 +276,19 @@
 | [0023-merge-k-sorted-lists](https://github.com/Riteshh-Guptaa/dsa/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0239-sliding-window-maximum) |
 | [0295-find-median-from-data-stream](https://github.com/Riteshh-Guptaa/dsa/tree/master/0295-find-median-from-data-stream) |
+| [0347-top-k-frequent-elements](https://github.com/Riteshh-Guptaa/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0355-design-twitter](https://github.com/Riteshh-Guptaa/dsa/tree/master/0355-design-twitter) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 ## Bucket Sort
 |  |
 | ------- |
+| [0347-top-k-frequent-elements](https://github.com/Riteshh-Guptaa/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 ## Counting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
+| [0347-top-k-frequent-elements](https://github.com/Riteshh-Guptaa/dsa/tree/master/0347-top-k-frequent-elements) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Riteshh-Guptaa/dsa/tree/master/0992-subarrays-with-k-different-integers) |
 | [1781-sum-of-beauty-of-all-substrings](https://github.com/Riteshh-Guptaa/dsa/tree/master/1781-sum-of-beauty-of-all-substrings) |
@@ -632,4 +639,8 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Riteshh-Guptaa/dsa/tree/master/0023-merge-k-sorted-lists) |
+## Quickselect
+|  |
+| ------- |
+| [0347-top-k-frequent-elements](https://github.com/Riteshh-Guptaa/dsa/tree/master/0347-top-k-frequent-elements) |
 <!---LeetCode Topics End-->
