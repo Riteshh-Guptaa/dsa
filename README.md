@@ -88,6 +88,7 @@
 | [0189-rotate-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/0189-rotate-array) |
 | [0234-palindrome-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0234-palindrome-linked-list) |
 | [0283-move-zeroes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0283-move-zeroes) |
+| [0295-find-median-from-data-stream](https://github.com/Riteshh-Guptaa/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
 | [0653-two-sum-iv-input-is-a-bst](https://github.com/Riteshh-Guptaa/dsa/tree/master/0653-two-sum-iv-input-is-a-bst) |
 | [0876-middle-of-the-linked-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0876-middle-of-the-linked-list) |
@@ -137,6 +138,7 @@
 | [0148-sort-list](https://github.com/Riteshh-Guptaa/dsa/tree/master/0148-sort-list) |
 | [0169-majority-element](https://github.com/Riteshh-Guptaa/dsa/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/Riteshh-Guptaa/dsa/tree/master/0242-valid-anagram) |
+| [0295-find-median-from-data-stream](https://github.com/Riteshh-Guptaa/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0435-non-overlapping-intervals](https://github.com/Riteshh-Guptaa/dsa/tree/master/0435-non-overlapping-intervals) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/Riteshh-Guptaa/dsa/tree/master/0455-assign-cookies) |
@@ -269,6 +271,7 @@
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/Riteshh-Guptaa/dsa/tree/master/0023-merge-k-sorted-lists) |
 | [0239-sliding-window-maximum](https://github.com/Riteshh-Guptaa/dsa/tree/master/0239-sliding-window-maximum) |
+| [0295-find-median-from-data-stream](https://github.com/Riteshh-Guptaa/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0355-design-twitter](https://github.com/Riteshh-Guptaa/dsa/tree/master/0355-design-twitter) |
 | [0451-sort-characters-by-frequency](https://github.com/Riteshh-Guptaa/dsa/tree/master/0451-sort-characters-by-frequency) |
 ## Bucket Sort
@@ -482,6 +485,7 @@
 | [0173-binary-search-tree-iterator](https://github.com/Riteshh-Guptaa/dsa/tree/master/0173-binary-search-tree-iterator) |
 | [0225-implement-stack-using-queues](https://github.com/Riteshh-Guptaa/dsa/tree/master/0225-implement-stack-using-queues) |
 | [0232-implement-queue-using-stacks](https://github.com/Riteshh-Guptaa/dsa/tree/master/0232-implement-queue-using-stacks) |
+| [0295-find-median-from-data-stream](https://github.com/Riteshh-Guptaa/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0355-design-twitter](https://github.com/Riteshh-Guptaa/dsa/tree/master/0355-design-twitter) |
 | [0460-lfu-cache](https://github.com/Riteshh-Guptaa/dsa/tree/master/0460-lfu-cache) |
@@ -511,6 +515,7 @@
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/Riteshh-Guptaa/dsa/tree/master/0295-find-median-from-data-stream) |
 | [0901-online-stock-span](https://github.com/Riteshh-Guptaa/dsa/tree/master/0901-online-stock-span) |
 ## Doubly-Linked List
 |  |
