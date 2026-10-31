@@ -375,6 +375,7 @@
 | [0137-single-number-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0137-single-number-ii) |
 | [0222-count-complete-tree-nodes](https://github.com/Riteshh-Guptaa/dsa/tree/master/0222-count-complete-tree-nodes) |
 | [0260-single-number-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0260-single-number-iii) |
+| [2220-minimum-bit-flips-to-convert-number](https://github.com/Riteshh-Guptaa/dsa/tree/master/2220-minimum-bit-flips-to-convert-number) |
 ## Matrix
 |  |
 | ------- |
