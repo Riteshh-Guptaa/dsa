@@ -9,7 +9,7 @@ public:
                 cnt += (num >> i) & 1;
             }
             cnt %= 3;
-            ans = ans | (cnt << i);
+            ans |= (cnt << i);
         }
         return ans;
     }
