@@ -5,17 +5,17 @@ public:
             return INT_MAX;
         }
 
-        long long a = abs((long long) dividend);
-        long long b = abs((long long) divisor);
-
+        long long a = abs((long long)dividend);
+        long long b = abs((long long)divisor);
         long long ans = 0;
+
         for(int i = 31; i >= 0; i--){
-            if(a >= (b << i)){
-                a -= (b << i);
-                ans += (1LL << i);
+            if(b << i <= a){
+                a -= b << i;
+                ans |= (1 << i);
             }
         }
-        if(dividend < 0 ^ divisor < 0){
+        if((dividend < 0) ^ (divisor < 0)){
             ans = -ans;
         }
         return ans;
