@@ -258,6 +258,7 @@
 | [0992-subarrays-with-k-different-integers](https://github.com/Riteshh-Guptaa/dsa/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/Riteshh-Guptaa/dsa/tree/master/1011-capacity-to-ship-packages-within-d-days) |
+| [1020-number-of-enclaves](https://github.com/Riteshh-Guptaa/dsa/tree/master/1020-number-of-enclaves) |
 | [1248-count-number-of-nice-subarrays](https://github.com/Riteshh-Guptaa/dsa/tree/master/1248-count-number-of-nice-subarrays) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/Riteshh-Guptaa/dsa/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1331-rank-transform-of-an-array](https://github.com/Riteshh-Guptaa/dsa/tree/master/1331-rank-transform-of-an-array) |
@@ -386,6 +387,7 @@
 | [0079-word-search](https://github.com/Riteshh-Guptaa/dsa/tree/master/0079-word-search) |
 | [0085-maximal-rectangle](https://github.com/Riteshh-Guptaa/dsa/tree/master/0085-maximal-rectangle) |
 | [0240-search-a-2d-matrix-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/0240-search-a-2d-matrix-ii) |
+| [1020-number-of-enclaves](https://github.com/Riteshh-Guptaa/dsa/tree/master/1020-number-of-enclaves) |
 | [1901-find-a-peak-element-ii](https://github.com/Riteshh-Guptaa/dsa/tree/master/1901-find-a-peak-element-ii) |
 ## Simulation
 |  |
@@ -416,6 +418,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/Riteshh-Guptaa/dsa/tree/master/1020-number-of-enclaves) |
 ## Binary Indexed Tree
 |  |
 | ------- |
@@ -618,6 +621,7 @@
 | [0662-maximum-width-of-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0662-maximum-width-of-binary-tree) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/Riteshh-Guptaa/dsa/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1020-number-of-enclaves](https://github.com/Riteshh-Guptaa/dsa/tree/master/1020-number-of-enclaves) |
 ## DP on Trees
 |  |
 | ------- |
@@ -650,6 +654,7 @@
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/Riteshh-Guptaa/dsa/tree/master/0547-number-of-provinces) |
+| [1020-number-of-enclaves](https://github.com/Riteshh-Guptaa/dsa/tree/master/1020-number-of-enclaves) |
 ## Graph Theory
 |  |
 | ------- |
