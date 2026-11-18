@@ -8,14 +8,14 @@ public:
         int ans = 0;
         while(left < right){
             if(height[left] <= height[right]){
-                if(height[left] >= leftMax){
+                if(leftMax <= height[left]){
                     leftMax = height[left];
                 }else{
                     ans += leftMax - height[left];
                 }
                 left++;
             }else{
-                if(height[right] >= rightMax){
+                if(rightMax <= height[right]){
                     rightMax = height[right];
                 }else{
                     ans += rightMax - height[right];
