@@ -1,16 +1,14 @@
 class LFUCache {
 struct Node{
-    int value;
+    int val;
     int key;
     int cnt;
     Node* next;
     Node* prev;
 
-    Node(int _value, int _key){
-        value = _value;
+    Node(int _val, int _key){
+        val = _val;
         key = _key;
-        next = NULL;
-        prev = NULL;
         cnt = 1;
     }
 };
@@ -28,48 +26,47 @@ struct List{
         size = 0;
     }
 
+    void removeNode(Node* node){
+        Node* frontNode = node->next;
+        Node* backNode = node->prev;
+
+        frontNode->prev = backNode;
+        backNode->next = frontNode;
+        size--;
+    }
+
     void addFront(Node* node){
         Node* temp = head->next;
-        head->next = node;
         temp->prev = node;
+        head->next = node;
         node->next = temp;
         node->prev = head;
         size++;
     }
-
-    void removeNode(Node* node){
-        Node* nodeFront = node->next;
-        Node* nodeBack = node->prev;
-        nodeFront->prev = nodeBack;
-        nodeBack->next = nodeFront;
-        size--;
-    }
-
-
 };
 
 unordered_map<int, Node*> mp;
 unordered_map<int, List*> freqListMap;
+int curSize;
 int cap;
 int minFreq;
-int curSize;
+
 
 void updateFreqListMap(Node* node){
-    List* newList = freqListMap[node->cnt];
-    newList->removeNode(node);
-    if(minFreq == node->cnt && newList->size == 0){
+    List* list = freqListMap[node->cnt];
+    list->removeNode(node);
+    if(list->size == 0 && minFreq == node->cnt){
         minFreq++;
     }
 
-    node->cnt += 1;
+    node->cnt++;
 
-    List *list = freqListMap.find(node->cnt) == freqListMap.end() ? new List() : freqListMap[node->cnt];
-    list->addFront(node);
-    freqListMap[node->cnt] = list; 
-}
+    List* newList = freqListMap.find(node->cnt) == freqListMap.end() ? new List() : freqListMap[node->cnt];
+    newList->addFront(node);
+    freqListMap[node->cnt] = newList;
+};
 
 public:
-    
     LFUCache(int capacity) {
         cap = capacity;
         curSize = 0;
@@ -82,36 +79,36 @@ public:
         }
 
         Node* node = mp[key];
-        int val = node->value;
+        int x = node->val;
         updateFreqListMap(node);
-        return val;
+        return x;
     }
     
     void put(int key, int value) {
         if(cap == 0) return;
         if(mp.find(key) != mp.end()){
             Node* node = mp[key];
-            node->value = value;
+            node->val = value;
             updateFreqListMap(node);
             return;
         }
-
-        if(cap == curSize){
-            List* newList = freqListMap[minFreq];
-            Node* node = newList->tail->prev;
-            newList->removeNode(node);
-            mp.erase(node->key);
-            delete node;
+        if(curSize == cap){
+            List* delList = freqListMap[minFreq];
+            Node* temp = delList->tail->prev;
+            delList->removeNode(temp);
+            mp.erase(temp->key);
             curSize--;
+            delete temp;
         }
 
         Node* node = new Node(value, key);
-        mp[key] = node;
         minFreq = 1;
-        List* list = freqListMap.find(node->cnt) == freqListMap.end() ? new List() : freqListMap[node->cnt];
+        List* list = freqListMap.find(minFreq) == freqListMap.end() ? new List() : freqListMap[minFreq];
         list->addFront(node);
-        freqListMap[node->cnt] = list;
+        mp[key] = node;
+        freqListMap[minFreq] = list;
         curSize++;
+
     }
 };
 
