@@ -12,32 +12,34 @@
 class Solution {
 public:
     vector<int> rightSideView(TreeNode* root) {
-        vector<int> ans;
-        if(root == NULL) return ans;
         queue<TreeNode*> q;
+        if(root == NULL) return {};
 
         q.push(root);
+        vector<int> ans;
 
         while(!q.empty()){
             int n = q.size();
 
+           
             for(int i = 0; i < n; i++){
-                TreeNode* node = q.front();
+                auto front = q.front();
                 q.pop();
 
                 if(i == n - 1){
-                    ans.push_back(node->val);
+                    ans.push_back(front->val);
                 }
 
-                if(node->left){
-                    q.push(node->left);
+                if(front->left){
+                    q.push(front->left);
                 }
-                if(node->right){
-                    q.push(node->right);
+
+                if(front->right){
+                    q.push(front->right);
                 }
             }
-            
         }
         return ans;
+
     }
 };
