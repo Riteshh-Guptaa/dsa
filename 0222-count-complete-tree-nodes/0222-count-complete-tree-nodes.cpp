@@ -12,26 +12,25 @@
 class Solution {
 public:
     int countNodes(TreeNode* root) {
-        if(root == NULL)return 0;
-        TreeNode* left = root;
-        TreeNode* right = root;
+        if(root == NULL) return 0;
 
-        int LeftHeight = 0, RightHeight = 0;
+        int leftCount = 0, rightCount = 0;
+        TreeNode* leftHeight = root;
+        TreeNode* rightHeight = root;
 
-        while(left){
-            left = left->left;
-            LeftHeight++;
+        while(leftHeight){
+            leftHeight = leftHeight->left;
+            leftCount++;
+        }  
 
+        while(rightHeight){
+            rightHeight = rightHeight->right;
+            rightCount++;
         }
 
-        while(right){
-            right = right->right;
-            RightHeight++;
+        if(leftCount == rightCount){
+            return (1 << leftCount) - 1;
         }
-
-        if(LeftHeight == RightHeight){
-            return (1 << LeftHeight) - 1;
-        }    
 
         return 1 + countNodes(root->left) + countNodes(root->right);
     }
