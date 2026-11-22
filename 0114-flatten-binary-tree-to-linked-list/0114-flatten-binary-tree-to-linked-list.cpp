@@ -10,7 +10,7 @@
  * };
  */
 class Solution {
-public:
+public:;
     TreeNode* prev = NULL;
     void flatten(TreeNode* root) {
         if(root == NULL) return;
@@ -20,8 +20,5 @@ public:
         root->right = prev;
         root->left = NULL;
         prev = root;
-
-
-
     }
 };
