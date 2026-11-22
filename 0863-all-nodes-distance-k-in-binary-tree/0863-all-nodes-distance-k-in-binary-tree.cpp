@@ -9,64 +9,65 @@
  */
 class Solution {
 public:
-    unordered_map<TreeNode*, TreeNode*> parents;
+    void MarkParents(TreeNode* root, unordered_map<TreeNode*, TreeNode*> &mp){
+        if(root == NULL) return;
 
-    void markParents(TreeNode* root){
-        queue<TreeNode*> q;
+        queue<TreeNode* > q;
         q.push(root);
+
         while(!q.empty()){
-            int n = q.size();
-            for(int i = 0; i < n; i++){
-                TreeNode* node = q.front();
-                q.pop();
+            auto node = q.front();
+            q.pop();
 
-                if(node->left){
-                    parents[node->left] = node;
-                    q.push(node->left);
-                }
+            if(node->left){
+                q.push(node->left);
+                mp[node->left] = node;
+            }
 
-                if(node->right){
-                    parents[node->right] = node;
-                    q.push(node->right);
-                }
+            if(node->right){
+                q.push(node->right);
+                mp[node->right] = node;
             }
         }
     }
     vector<int> distanceK(TreeNode* root, TreeNode* target, int k) {
+        unordered_map<TreeNode*, TreeNode*> parents;
+
+        MarkParents(root, parents);
         vector<int> ans;
-        if(root == NULL) return ans;
-        markParents(root);
+        if(root == NULL || target == NULL) return ans;
+        unordered_set<TreeNode*> visited;
+        visited.insert(target);
 
         queue<TreeNode*> q;
-        unordered_set<TreeNode* > visited;
-        visited.insert(target);
         q.push(target);
-        int dist = 0;
 
         while(!q.empty()){
-            int n = q.size();
-            if(k == dist) break;
-            for(int i = 0; i < n; i++){
-                TreeNode* node = q.front();
-                q.pop();
+          int n = q.size();
+          if(k == 0) break;
+          for(int i = 0; i < n; i++){
+            
+            auto node = q.front();
+            q.pop();
 
-                if(node->left && !visited.count(node->left)){
-                    q.push(node->left);
-                    visited.insert(node->left);
-                }
-
-                if(node->right && !visited.count(node->right)){
-                    q.push(node->right);
-                    visited.insert(node->right);
-                }
-
-                if(parents.count(node) && !visited.count(parents[node])){
-                    q.push(parents[node]);
-                    visited.insert(parents[node]);
-                }
+            if(node->left && !visited.count(node->left)){
+                visited.insert(node->left);
+                q.push(node->left);
             }
-            dist++;
+
+            if(node->right && !visited.count(node->right)){
+                visited.insert(node->right);
+                q.push(node->right);
+            }
+
+            if(parents.count(node) && !visited.count(parents[node])){
+                visited.insert(parents[node]);
+                q.push(parents[node]);
+            }
+          }
+          k--;
         }
+       
         while(!q.empty()){
             ans.push_back(q.front()->val);
             q.pop();
