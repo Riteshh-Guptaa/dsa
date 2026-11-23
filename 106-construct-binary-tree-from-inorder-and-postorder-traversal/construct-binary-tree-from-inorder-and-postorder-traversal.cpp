@@ -19,17 +19,20 @@ public:
 
         int postIndex = postorder.size() - 1;
 
-        return build(inorder, postorder, mp, postIndex, 0, inorder.size() - 1);
+        return build(postorder, inorder, postIndex, mp, 0, postorder.size() - 1);
     }
 
-    TreeNode* build(vector<int> &inorder, vector<int> &postorder, unordered_map<int, int> &mp, int &postIndex, int left, int right){
-        if(left > right) return nullptr;
-        int rootVal = postorder[postIndex--];
-        TreeNode* root = new TreeNode(rootVal);
-        int mid = mp[rootVal];
+    TreeNode* build(vector<int> &postorder, vector<int> &inorder, int &postIndex, unordered_map<int, int> &mp, int left, int right){
+        if(left > right) return NULL;
 
-        root->right = build(inorder, postorder, mp, postIndex, mid + 1, right);
-        root->left = build(inorder, postorder, mp, postIndex, left, mid - 1);
-        return root;
+        int val = postorder[postIndex--];
+
+        TreeNode* node = new TreeNode(val);
+        
+        int mid = mp[val];
+
+        node->right = build(postorder, inorder, postIndex, mp, mid + 1, right);
+        node->left = build(postorder, inorder, postIndex, mp, left, mid - 1);
+        return node;
     }
 };
