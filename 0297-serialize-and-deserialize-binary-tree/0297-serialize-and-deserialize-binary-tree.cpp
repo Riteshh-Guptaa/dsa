@@ -16,29 +16,31 @@ public:
             return "N,";
         }
 
-        string s = to_string(root->val) + ",";
+        string s = to_string(root->val) + ',';
         s+= serialize(root->left);
-        s +=serialize(root->right);
+        s+= serialize(root->right);
         return s;
     }
+
     // Decodes your encoded data to tree.
     TreeNode* deserialize(string data) {
         stringstream ss(data);
-        return buildTree(ss);
+        return buildTrees(ss);        
     }
 
-    TreeNode* buildTree(stringstream &ss){
+    TreeNode* buildTrees(stringstream& ss){
         string val;
         getline(ss, val, ',');
-        if(val == "N"){
-            return NULL;
+
+        if(val == "N" || val == "null"){
+        return NULL;
         }
 
-        TreeNode* root = new TreeNode(stoi(val));
+        TreeNode *node = new TreeNode(stoi(val));
 
-        root->left = buildTree(ss);
-        root->right = buildTree(ss);
-        return root;
+        node->left = buildTrees(ss);
+        node->right = buildTrees(ss);
+        return node;
 
     }
 };
