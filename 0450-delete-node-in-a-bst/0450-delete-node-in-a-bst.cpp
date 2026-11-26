@@ -12,55 +12,44 @@
 class Solution {
 public:
     TreeNode* deleteNode(TreeNode* root, int key) {
-        if(root == NULL){
-            return NULL;
-        }
+        if(root == NULL) return NULL;
+        if(root->val == key) return helper(root);
 
-        if(root->val == key){
-            return helper(root);
-        }
-        TreeNode* dummy = root;
-        while(root != NULL){
-            if(root->val > key){
-                if(root->left != NULL && root->left->val == key){
-                    root->left = helper(root->left);
-                    break;
+        TreeNode* curr = root;
+        while(curr != NULL){
+            if(curr->val > key){
+                if(curr->left != NULL && curr->left->val == key){
+                    curr->left = helper(curr->left);
                 }else{
-                    root = root->left;
+                    curr = curr->left;
                 }
             }else{
-                if(root->right != NULL && root->right->val == key){
-                    root->right = helper(root->right);
-                    break;
+                if(curr->right != NULL && curr->right->val == key){
+                    curr->right = helper(curr->right);
                 }else{
-                    root = root->right;
+                    curr = curr->right;
                 }
             }
         }
-        return dummy;
+        return root;
     }
 
     TreeNode* helper(TreeNode* root){
-        if(root->left == NULL){
-            return root->right;
-        }
-
-        if(root->right == NULL){
-            return root->left;
-        }
-
-        TreeNode* rightChild = root->right;
-        TreeNode* rightMostChild = leftRightFinder(root->left);
-        rightMostChild->right = rightChild;
-        TreeNode* curr = root->left;
+        if(root->left == NULL && root->right == NULL) return NULL;
+        if(root->left == NULL) return root->right;
+        if(root->right == NULL) return root->left;
+        TreeNode* rightSide = root->right;
+        TreeNode* leftRightSide = leftMostRight(root->left);
+        TreeNode* node = root->left;
+        leftRightSide->right = rightSide;
         delete root;
-        return curr;
+        return node;
     }
 
-    TreeNode* leftRightFinder(TreeNode* root){
-        if(root->right == NULL){
-            return root;
+    TreeNode* leftMostRight(TreeNode* node){
+        if(node->right == NULL){
+            return node;
         }
-        return leftRightFinder(root->right);
+        return leftMostRight(node->right);
     }
 };
