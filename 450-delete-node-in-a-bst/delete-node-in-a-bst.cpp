@@ -52,7 +52,9 @@ public:
         TreeNode* rightChild = root->right;
         TreeNode* rightMostChild = leftRightFinder(root->left);
         rightMostChild->right = rightChild;
-        return root->left;
+        TreeNode* curr = root->left;
+        delete root;
+        return curr;
     }
 
     TreeNode* leftRightFinder(TreeNode* root){
